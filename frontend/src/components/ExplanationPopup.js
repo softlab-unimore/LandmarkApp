@@ -1,7 +1,7 @@
 import React from "react"
 import {connect} from 'react-redux'
 
-import {Col, Modal, Row, Statistic, Table, Tabs} from "antd"
+import {Col, Modal, Row, Statistic, Table, Tabs, Descriptions} from "antd"
 
 import * as navActions from "../store/actions/nav"
 import Plot from "react-plotly.js"
@@ -84,15 +84,15 @@ class ExplanationPopup extends React.Component {
             }
 
             // this.props.scenario.record['entropy'] = 2.1849
-            console.log('record', this.props.scenario.record)
-            console.log('scenario', this.props.scenario)
+            // console.log('record', this.props.scenario.record)
+            // console.log('scenario', this.props.scenario)
 
             // Create columns array
             columns = Object.keys(this.props.scenario.record).map(val => {
                 return {title: val.toUpperCase(), dataIndex: val, ellipsis: true}
             })
 
-            console.log('columns', columns)
+            // console.log('columns', columns)
             // Remove key columns
             let i
             for (i = 0; i < columns.length; ++i) {
@@ -148,8 +148,6 @@ class ExplanationPopup extends React.Component {
             columns = sideColumns
             dataSource[0]['key'] = 0
             dataSource[1]['key'] = 1
-            console.log(dataSource)
-            console.log(columns)
         }
 
         return (
@@ -175,34 +173,30 @@ class ExplanationPopup extends React.Component {
                             />
 
                             <div style={{marginTop: 15}}>
-                                <Row gutter={16} justify="space-around">
-                                    <Col span={4}>
-                                        <Statistic
-                                            title="Label"
-                                            value={this.props.scenario.record.label}
+                                <Descriptions bordered>
+                                    {/*<Col span={4}>*/}
+                                        <Descriptions.Item
+                                            label="Label"
                                             precision={0}
                                             // valueStyle={{color: '#43a047'}}
-                                        />
-                                    </Col>
-                                    <Col span={4}>
-                                        <Statistic
-                                            title="Prediction"
-                                            value={this.props.scenario.prediction}
+                                        >{this.props.scenario.record.label}</Descriptions.Item>
+                                    {/*</>*/}
+                                    {/*<Col span={4}>*/}
+                                        <Descriptions.Item
+                                            label="Prediction"
+
                                             precision={3}
                                             // valueStyle={{color: '#43a047'}}
-                                        />
-                                    </Col>
-                                    <Col span={4}>
-                                        <Statistic
-                                            title="Entropy"
-                                            value={this.props.scenario.entropy}
+                                        >{this.props.scenario.prediction}</Descriptions.Item>
+                                    {/*</Col>*/}
+                                    {/*<Col span={4}>*/}
+                                        <Descriptions.Item
+                                            label="Entropy"
                                             precision={3}
                                             // valueStyle={{color: '#43a047'}}
-                                        />
-                                    </Col>
-
-
-                                </Row>
+                                        >{this.props.scenario.entropy}</Descriptions.Item>
+                                    {/*</Col>*/}
+                                </Descriptions>
                             </div>
 
                             <div style={{textAlign: 'center'}}>
