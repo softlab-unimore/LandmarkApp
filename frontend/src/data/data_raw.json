@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Edward King",
+    "age": 32,
+    "address": "London, Park Lane",
+    "label": 1
+  },
+  {
+    "name": "Edward King",
+    "age": 32,
+    "address": "London, Park Lane"
+  },
+  {
+    "name": "Edward King",
+    "age": 32,
+    "address": "London, Park Lane"
+  },
+  {
+    "name": "Edward King",
+    "age": 32,
+    "address": "London, Park Lane"
+  }
+]

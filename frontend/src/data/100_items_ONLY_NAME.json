@@ -1,0 +1,902 @@
+[
+  {
+    "left_name": "panasonic black 8.5 ' portable dvd player dvdls83",
+    "right_name": "panasonic dvd-ls83 portable dvd player",
+    "id": 23,
+    "left_id": 550,
+    "right_id": 594,
+    "label": 1,
+    "prediction": 0.5784
+  },
+  {
+    "left_name": "samsung l200 black 10.2 megapixel digital camera ecl200zbba",
+    "right_name": "samsung l200 digital camera black ec-l200zbba \\/ us",
+    "id": 66,
+    "left_id": 788,
+    "right_id": 627,
+    "label": 1,
+    "prediction": 0.8533
+  },
+  {
+    "left_name": "sony cyber-shot black digital camera dsch10b",
+    "right_name": "sony cyber-shot dsc-h10 digital camera black dsch10\\/b",
+    "id": 68,
+    "left_id": 495,
+    "right_id": 629,
+    "label": 1,
+    "prediction": 0.9037
+  },
+  {
+    "left_name": "olympus evolt-420 10 megapixel digital slr camera with 14-42mm lens in black evolte420kit",
+    "right_name": "olympus evolt e-420 digital slr camera with 14 42mm f\\/3 .5 - f\\/5 .6 zuiko digital zoom lens black 262081",
+    "id": 123,
+    "left_id": 539,
+    "right_id": 644,
+    "label": 1,
+    "prediction": 0.6189
+  },
+  {
+    "left_name": "canon silver powershot digital camera sd880is",
+    "right_name": "canon powershot sd880 is digital camera silver 3197b001",
+    "id": 186,
+    "left_id": 987,
+    "right_id": 992,
+    "label": 1,
+    "prediction": 0.9273
+  },
+  {
+    "left_name": "panasonic black expandable digital cordless dect 6.0 phone system kxtg9348t",
+    "right_name": "panasonic kx-tg9348t expandable digital cordless phone",
+    "id": 240,
+    "left_id": 764,
+    "right_id": 641,
+    "label": 1,
+    "prediction": 0.674
+  },
+  {
+    "left_name": "canon deluxe grey leather case 2349b001",
+    "right_name": "canon psc-1000 semi-hard leather case 2349b001",
+    "id": 275,
+    "left_id": 805,
+    "right_id": 470,
+    "label": 1,
+    "prediction": 0.5826
+  },
+  {
+    "left_name": "samsung 40 ' series 6 lcd black flat panel hdtv ln40a650",
+    "right_name": "samsung ln40a650 40 ' lcd tv",
+    "id": 284,
+    "left_id": 568,
+    "right_id": 666,
+    "label": 1,
+    "prediction": 0.5318
+  },
+  {
+    "left_name": "panasonic kx-tga450b black 5.8 ghz cordless handset kxtga450b",
+    "right_name": "panasonic kx-tga450b cordless handset",
+    "id": 311,
+    "left_id": 191,
+    "right_id": 138,
+    "label": 1,
+    "prediction": 0.7654
+  },
+  {
+    "left_name": "linksys wireless-g printserver wpsm54g",
+    "right_name": "linksys wpsm54g wireless-g usb print server",
+    "id": 382,
+    "left_id": 365,
+    "right_id": 273,
+    "label": 1,
+    "prediction": 0.7988
+  },
+  {
+    "left_name": "samsung 46 ' series 5 lcd black flat panel hdtv ln46a550",
+    "right_name": "samsung ln46a550 46 ' lcd tv",
+    "id": 403,
+    "left_id": 572,
+    "right_id": 658,
+    "label": 1,
+    "prediction": 0.5573
+  },
+  {
+    "left_name": "samsung 32 ' series 5 lcd black flat panel hdtv ln32a550",
+    "right_name": "samsung ln32a550 32 ' lcd tv",
+    "id": 418,
+    "left_id": 617,
+    "right_id": 697,
+    "label": 1,
+    "prediction": 0.5328
+  },
+  {
+    "left_name": "sony 9 ' digital photo frame in black dpfv900",
+    "right_name": "sony dpfv900 digital photo frame dpf-v900",
+    "id": 512,
+    "left_id": 448,
+    "right_id": 908,
+    "label": 1,
+    "prediction": 0.7416
+  },
+  {
+    "left_name": "canon powershot silver digital camera sx110is",
+    "right_name": "canon powershot sx110 is digital camera silver 2666b001",
+    "id": 528,
+    "left_id": 901,
+    "right_id": 960,
+    "label": 1,
+    "prediction": 0.9261
+  },
+  {
+    "left_name": "sanus center channel speaker mount black finish vmcc1b",
+    "right_name": "sanus center channel speaker mount vmcc1b",
+    "id": 605,
+    "left_id": 114,
+    "right_id": 124,
+    "label": 1,
+    "prediction": 0.8353
+  },
+  {
+    "left_name": "speck seethru purple hard shell case for 15 ' macbook mb15purseev2",
+    "right_name": "speck products seethru case for apple 15 ' macbook pro mb15-pur-see-v2",
+    "id": 647,
+    "left_id": 852,
+    "right_id": 827,
+    "label": 1,
+    "prediction": 0.5332
+  },
+  {
+    "left_name": "kenwood 6-disc cd changer kdcc669",
+    "right_name": "kenwood kdc-c669 car cd changer kdcc669",
+    "id": 664,
+    "left_id": 35,
+    "right_id": 199,
+    "label": 1,
+    "prediction": 0.6543
+  },
+  {
+    "left_name": "lacie usb 2.0 floppy disk drive 706018",
+    "right_name": "lacie pocket floppy disk drive 706018",
+    "id": 735,
+    "left_id": 827,
+    "right_id": 5,
+    "label": 1,
+    "prediction": 0.7573
+  },
+  {
+    "left_name": "sony alpha dslr black camera body with 18-70mm zoom lens dslra300k",
+    "right_name": "sony alpha dslr-a300 digital slr camera with 18-70mm zoom lens black dslra300k",
+    "id": 749,
+    "left_id": 623,
+    "right_id": 586,
+    "label": 1,
+    "prediction": 0.8508
+  },
+  {
+    "left_name": "logitech blue v470 cordless laser mouse for notebooks 910000298",
+    "right_name": "logitech v470 cordless laser mouse for notebooks 910-000298",
+    "id": 764,
+    "left_id": 402,
+    "right_id": 400,
+    "label": 1,
+    "prediction": 0.9662
+  },
+  {
+    "left_name": "sony black bravia home theater system davhdx279w",
+    "right_name": "sony bravia dav-hdx279wc home theater system",
+    "id": 809,
+    "left_id": 625,
+    "right_id": 761,
+    "label": 1,
+    "prediction": 0.8205
+  },
+  {
+    "left_name": "nikon coolpix s610 10 megapixel black digital camera coolpixs610bk",
+    "right_name": "nikon coolpix s610 digital camera midnight black 26125",
+    "id": 836,
+    "left_id": 868,
+    "right_id": 936,
+    "label": 1,
+    "prediction": 0.7214
+  },
+  {
+    "left_name": "sony 26 ' bravia m-series black lcd flat panel hdtv kdl26m4000",
+    "right_name": "sony bravia m series kdl-26m4000 26 ' lcd tv kdl26m4000",
+    "id": 861,
+    "left_id": 675,
+    "right_id": 834,
+    "label": 1,
+    "prediction": 0.5351
+  },
+  {
+    "left_name": "sony high definition hdv handycam camcorder hdrhc9",
+    "right_name": "sony handycam hdr-hc9 high definition digital camcorder hdrhc9",
+    "id": 870,
+    "left_id": 443,
+    "right_id": 581,
+    "label": 1,
+    "prediction": 0.9356
+  },
+  {
+    "left_name": "netgear prosafe 24-port smart switch gs724tp",
+    "right_name": "netgear prosafe gs724tp 24 port smart switch with poe gs724tp-100nas",
+    "id": 880,
+    "left_id": 288,
+    "right_id": 341,
+    "label": 1,
+    "prediction": 0.5788
+  },
+  {
+    "left_name": "sony bravia theater black micro system davis50b",
+    "right_name": "sony bravia dav-is50 \\/ b home theater system",
+    "id": 25,
+    "left_id": 942,
+    "right_id": 949,
+    "label": 1,
+    "prediction": 0.4235
+  },
+  {
+    "left_name": "sirius sportster 4 with car kit sp4tk1",
+    "right_name": "directed electronics sportster 4 sirius satellite radio receiver sp4tk1",
+    "id": 199,
+    "left_id": 161,
+    "right_id": 237,
+    "label": 1,
+    "prediction": 0.089
+  },
+  {
+    "left_name": "panasonic kx-tg6702b 5.8 ghz fhss gigarange expandable black cordless phone system kxtg6702b",
+    "right_name": "panasonic kx-tg6702b cordless telephone kx-tg6702b",
+    "id": 237,
+    "left_id": 250,
+    "right_id": 335,
+    "label": 1,
+    "prediction": 0.4653
+  },
+  {
+    "left_name": "panasonic silver dect 6.0 cordless telephone kxtg1033s",
+    "right_name": "panasonic kx-tg1033s digital cordless phone with three handsets",
+    "id": 304,
+    "left_id": 256,
+    "right_id": 300,
+    "label": 1,
+    "prediction": 0.1375
+  },
+  {
+    "left_name": "sony lcs-twa\\/r red soft leather carrying case lcstwar",
+    "right_name": "sony lcs-twa\\/r cyber-shot camera case",
+    "id": 462,
+    "left_id": 241,
+    "right_id": 414,
+    "label": 1,
+    "prediction": 0.1253
+  },
+  {
+    "left_name": "samsung 22 ' white flat panel lcd hdtv ln22a451",
+    "right_name": "samsung 4 series ln22a451 22 ' lcd tv",
+    "id": 495,
+    "left_id": 608,
+    "right_id": 686,
+    "label": 1,
+    "prediction": 0.4535
+  },
+  {
+    "left_name": "sony digital photo printer paper 40 pack svmf40p",
+    "right_name": "sony print paper svmf40p",
+    "id": 515,
+    "left_id": 53,
+    "right_id": 126,
+    "label": 1,
+    "prediction": 0.3833
+  },
+  {
+    "left_name": "canon black 21.1 megapixel eos digital slr camera body eos5dmarkiibody",
+    "right_name": "canon eos 5d mark ii digital slr camera 2764b003",
+    "id": 562,
+    "left_id": 1001,
+    "right_id": 1058,
+    "label": 1,
+    "prediction": 0.2237
+  },
+  {
+    "left_name": "sony np-fh100 infolithium h series standard rechargeable battery pack npfh100",
+    "right_name": "sony np-fh100 lithium ion camcorder battery npfh100",
+    "id": 634,
+    "left_id": 244,
+    "right_id": 328,
+    "label": 1,
+    "prediction": 0.1387
+  },
+  {
+    "left_name": "speck seethru pink hard shell case for 13 ' macbook mb13pnkseev2",
+    "right_name": "speck products seethru case for apple 13 ' macbook mb13-pnk-see-v2",
+    "id": 656,
+    "left_id": 840,
+    "right_id": 820,
+    "label": 1,
+    "prediction": 0.4885
+  },
+  {
+    "left_name": "panasonic dect 6.0 pearl silver expandable digital cordless phone system kxtg6313s",
+    "right_name": "panasonic kx-tg6313s cordless phone",
+    "id": 685,
+    "left_id": 1011,
+    "right_id": 724,
+    "label": 1,
+    "prediction": 0.2286
+  },
+  {
+    "left_name": "peerless 37 ' 60 ' flat panel tv black wall mount st660p",
+    "right_name": "peerless universal tilt wall mount",
+    "id": 692,
+    "left_id": 728,
+    "right_id": 92,
+    "label": 1,
+    "prediction": 0.2081
+  },
+  {
+    "left_name": "onkyo 7.1-channel home theater black receiver txsr606b",
+    "right_name": "onkyo txsr606 a\\/v receiver",
+    "id": 700,
+    "left_id": 686,
+    "right_id": 837,
+    "label": 1,
+    "prediction": 0.1571
+  },
+  {
+    "left_name": "onkyo thx ultra2 certified 7.1 channel home theater black receiver txnr906b",
+    "right_name": "onkyo tx-nr906 a\\/v receiver txnr906b",
+    "id": 708,
+    "left_id": 875,
+    "right_id": 1061,
+    "label": 1,
+    "prediction": 0.2143
+  },
+  {
+    "left_name": "onkyo black stereo receiver tx8255",
+    "right_name": "onkyo tx-8255 a\\/v receiver",
+    "id": 715,
+    "left_id": 892,
+    "right_id": 1063,
+    "label": 1,
+    "prediction": 0.1178
+  },
+  {
+    "left_name": "panasonic expandable digital cordless dect 6.0 phone system kxtg1032s",
+    "right_name": "panasonic kx-tg1032s dual handset digital cordless phone",
+    "id": 729,
+    "left_id": 328,
+    "right_id": 299,
+    "label": 1,
+    "prediction": 0.44
+  },
+  {
+    "left_name": "netgear prosafe 16 port 10\\/100 rackmount switch black finish jfs516na",
+    "right_name": "netgear prosafe jfs516 ethernet switch",
+    "id": 878,
+    "left_id": 160,
+    "right_id": 4,
+    "label": 1,
+    "prediction": 0.4278
+  },
+  {
+    "left_name": "toshiba black 9-inch lcd widescreen portable dvd player sdp91s",
+    "right_name": "toshiba sd-p91s portable dvd player",
+    "id": 968,
+    "left_id": 509,
+    "right_id": 665,
+    "label": 1,
+    "prediction": 0.4988
+  },
+  {
+    "left_name": "polk audio black 10 ' powered subwoofer psw110bk",
+    "right_name": "polkaudio psw series psw110 powered subwoofer",
+    "id": 1010,
+    "left_id": 632,
+    "right_id": 565,
+    "label": 1,
+    "prediction": 0.3634
+  },
+  {
+    "left_name": "sony black dvdirect mc5 multi-function dvd recorder vrdmc5",
+    "right_name": "sony vrdmc5 digital video recorder",
+    "id": 1067,
+    "left_id": 310,
+    "right_id": 401,
+    "label": 1,
+    "prediction": 0.1027
+  },
+  {
+    "left_name": "sharp aquos 52 ' special edition lcd black flat panel hdtv lc52se94u",
+    "right_name": "sharp aquos lc-52se94u 52 ' lcd tv",
+    "id": 1068,
+    "left_id": 460,
+    "right_id": 575,
+    "label": 1,
+    "prediction": 0.2807
+  },
+  {
+    "left_name": "canon cyan ink tank cyan cli8c",
+    "right_name": "canon cli-8c ink cartridge 0621b002",
+    "id": 1091,
+    "left_id": 91,
+    "right_id": 86,
+    "label": 1,
+    "prediction": 0.1248
+  },
+  {
+    "left_name": "speck seethru red hard shell case for 13 ' macbook mb13redseev2",
+    "right_name": "speck products seethru case for apple 13 ' macbook mb13-red-see-v2",
+    "id": 1099,
+    "left_id": 844,
+    "right_id": 818,
+    "label": 1,
+    "prediction": 0.4986
+  },
+  {
+    "left_name": "sony silver 1080p upscaling dvd player dvpns700hs",
+    "right_name": "sony dvp-ns700h \\/ s dvd player dvpns700hs",
+    "id": 1184,
+    "left_id": 562,
+    "right_id": 764,
+    "label": 1,
+    "prediction": 0.3515
+  },
+  {
+    "left_name": "samsung hi definition conversion dvd player dvd1080p8",
+    "right_name": "samsung dvd-1080p8 dvd player",
+    "id": 1196,
+    "left_id": 541,
+    "right_id": 725,
+    "label": 1,
+    "prediction": 0.2651
+  },
+  {
+    "left_name": "sony gold cyber-shot digital camera dscw150n",
+    "right_name": "sony cyber-shot dsc-h10 digital camera black dsch10\\/b",
+    "id": 72,
+    "left_id": 481,
+    "right_id": 629,
+    "label": 0,
+    "prediction": 0.5131
+  },
+  {
+    "left_name": "sony black 9 megapixel cyber-shot digital camera dsch50b",
+    "right_name": "sony cyber-shot dsc-h10 digital camera black dsch10\\/b",
+    "id": 82,
+    "left_id": 685,
+    "right_id": 629,
+    "label": 0,
+    "prediction": 0.7384
+  },
+  {
+    "left_name": "sony black 13.6 megapixel cyber-shot digital camera dscw300",
+    "right_name": "sony cyber-shot dsc-h10 digital camera black dsch10\\/b",
+    "id": 84,
+    "left_id": 687,
+    "right_id": 629,
+    "label": 0,
+    "prediction": 0.6694
+  },
+  {
+    "left_name": "sony red cyber-shot digital camera dscw150r",
+    "right_name": "sony cyber-shot dsc-h10 digital camera black dsch10\\/b",
+    "id": 86,
+    "left_id": 480,
+    "right_id": 629,
+    "label": 0,
+    "prediction": 0.5191
+  },
+  {
+    "left_name": "sony silver cyber-shot digital camera dscw150",
+    "right_name": "sony cyber-shot dsc-h50 digital camera black dsch50b",
+    "id": 94,
+    "left_id": 477,
+    "right_id": 732,
+    "label": 0,
+    "prediction": 0.5074
+  },
+  {
+    "left_name": "sony red cyber-shot digital camera dscw150r",
+    "right_name": "sony cyber-shot dsc-h50 digital camera black dsch50b",
+    "id": 105,
+    "left_id": 480,
+    "right_id": 732,
+    "label": 0,
+    "prediction": 0.502
+  },
+  {
+    "left_name": "sony black cyber-shot digital camera dscw150b",
+    "right_name": "sony cyber-shot dsc-t300 digital camera black dsct300\\/b",
+    "id": 111,
+    "left_id": 479,
+    "right_id": 574,
+    "label": 0,
+    "prediction": 0.7992
+  },
+  {
+    "left_name": "canon silver powershot digital camera sd880is",
+    "right_name": "canon powershot sd790 is digital camera 2554b001",
+    "id": 152,
+    "left_id": 987,
+    "right_id": 653,
+    "label": 0,
+    "prediction": 0.5701
+  },
+  {
+    "left_name": "sony silver cyber-shot digital camera dscs750",
+    "right_name": "sony cyber-shot dsc-w150 digital camera gold dscw150n",
+    "id": 161,
+    "left_id": 476,
+    "right_id": 791,
+    "label": 0,
+    "prediction": 0.5318
+  },
+  {
+    "left_name": "canon silver powershot digital camera sd880is",
+    "right_name": "canon powershot sd1100 is digital elph camera swing silver 2508b001",
+    "id": 172,
+    "left_id": 987,
+    "right_id": 542,
+    "label": 0,
+    "prediction": 0.6091
+  },
+  {
+    "left_name": "canon powershot silver digital camera sx110is",
+    "right_name": "canon powershot sd880 is digital camera silver 3197b001",
+    "id": 191,
+    "left_id": 901,
+    "right_id": 992,
+    "label": 0,
+    "prediction": 0.7712
+  },
+  {
+    "left_name": "audiovox xpressr xm satellite radio receiver xmck20p",
+    "right_name": "audiovox xmck5p expressez satellite radio xmck5p",
+    "id": 202,
+    "left_id": 331,
+    "right_id": 385,
+    "label": 0,
+    "prediction": 0.5398
+  },
+  {
+    "left_name": "panasonic black dect 6.0 cordless telephone kxtg9333t",
+    "right_name": "panasonic kx-tg1034s dect 6.0 cordless phone kx-tg1034s",
+    "id": 212,
+    "left_id": 535,
+    "right_id": 301,
+    "label": 0,
+    "prediction": 0.5315
+  },
+  {
+    "left_name": "panasonic black expandable digital cordless dect 6.0 phone system kxtg9348t",
+    "right_name": "panasonic kx-tg9372b expandable digital cordless phone",
+    "id": 215,
+    "left_id": 764,
+    "right_id": 633,
+    "label": 0,
+    "prediction": 0.5657
+  },
+  {
+    "left_name": "panasonic dect 6.0 black expandable digital cordless phone kxtg9361b",
+    "right_name": "panasonic kx-tg9372b expandable digital cordless phone",
+    "id": 218,
+    "left_id": 657,
+    "right_id": 633,
+    "label": 0,
+    "prediction": 0.5582
+  },
+  {
+    "left_name": "panasonic black expandable digital cordless dect 6.0 phone system kxtg9348t",
+    "right_name": "panasonic kx-tg9332s dect 6.0 expandable digital cordless phone",
+    "id": 221,
+    "left_id": 764,
+    "right_id": 638,
+    "label": 0,
+    "prediction": 0.8223
+  },
+  {
+    "left_name": "panasonic dect 6.0 expandable digital cordless phone with all-digital answering system kxtg9342t",
+    "right_name": "panasonic kx-tg9332s dect 6.0 expandable digital cordless phone",
+    "id": 222,
+    "left_id": 615,
+    "right_id": 638,
+    "label": 0,
+    "prediction": 0.6603
+  },
+  {
+    "left_name": "panasonic expandable digital cordless dect 6.0 handset in silver kxtga101s",
+    "right_name": "panasonic kx-tg9332s dect 6.0 expandable digital cordless phone",
+    "id": 223,
+    "left_id": 280,
+    "right_id": 638,
+    "label": 0,
+    "prediction": 0.7003
+  },
+  {
+    "left_name": "panasonic black expandable digital cordless dect 6.0 phone system kxtg8232b",
+    "right_name": "panasonic kx-tg9332s dect 6.0 expandable digital cordless phone",
+    "id": 224,
+    "left_id": 400,
+    "right_id": 638,
+    "label": 0,
+    "prediction": 0.7404
+  },
+  {
+    "left_name": "panasonic dect 6.0 black expandable digital cordless phone kxtg9361b",
+    "right_name": "panasonic kx-tg9348t expandable digital cordless phone",
+    "id": 245,
+    "left_id": 657,
+    "right_id": 641,
+    "label": 0,
+    "prediction": 0.5608
+  },
+  {
+    "left_name": "samsung 50 ' widescreen plasma hdtv pn50a650",
+    "right_name": "samsung pn50a550 50 ' plasma tv",
+    "id": 285,
+    "left_id": 710,
+    "right_id": 668,
+    "label": 0,
+    "prediction": 0.5356
+  },
+  {
+    "left_name": "panasonic corded phone kxts3282b",
+    "right_name": "panasonic kx-ts108w corded phone",
+    "id": 352,
+    "left_id": 32,
+    "right_id": 34,
+    "label": 0,
+    "prediction": 0.5282
+  },
+  {
+    "left_name": "canon powershot a1000 is gray digital camera a1000isg",
+    "right_name": "canon powershot a590 is digital camera 2462b001",
+    "id": 480,
+    "left_id": 903,
+    "right_id": 541,
+    "label": 0,
+    "prediction": 0.666
+  },
+  {
+    "left_name": "canon powershot silver digital camera sx110is",
+    "right_name": "canon powershot sx10 is digital camera 2665b001",
+    "id": 489,
+    "left_id": 901,
+    "right_id": 991,
+    "label": 0,
+    "prediction": 0.6026
+  },
+  {
+    "left_name": "canon black ink cartridge pg50",
+    "right_name": "canon black ink cartridge 0615b002",
+    "id": 533,
+    "left_id": 292,
+    "right_id": 88,
+    "label": 0,
+    "prediction": 0.7054
+  },
+  {
+    "left_name": "sony pink cyber-shot 7.2 megapixel digital camera dscw120p",
+    "right_name": "olympus fe-360 digital camera pink 226540",
+    "id": 0,
+    "left_id": 445,
+    "right_id": 910,
+    "label": 0,
+    "prediction": 0.1511
+  },
+  {
+    "left_name": "sony silver cyber-shot digital camera dscw150",
+    "right_name": "olympus fe-360 digital camera pink 226540",
+    "id": 1,
+    "left_id": 477,
+    "right_id": 910,
+    "label": 0,
+    "prediction": 0.0593
+  },
+  {
+    "left_name": "sony pink cyber-shot 7.2 megapixel digital camera dscw120p",
+    "right_name": "sony lcs-twa\\/b cyber-shot camera case lcstwa\\/b",
+    "id": 2,
+    "left_id": 445,
+    "right_id": 415,
+    "label": 0,
+    "prediction": 0.0869
+  },
+  {
+    "left_name": "sony red cyber-shot digital camera dscw170r",
+    "right_name": "sony lcs-twa\\/b cyber-shot camera case lcstwa\\/b",
+    "id": 3,
+    "left_id": 483,
+    "right_id": 415,
+    "label": 0,
+    "prediction": 0.115
+  },
+  {
+    "left_name": "sony lcs-twa\\/r red soft leather carrying case lcstwar",
+    "right_name": "sony lcs-twa\\/b cyber-shot camera case lcstwa\\/b",
+    "id": 4,
+    "left_id": 241,
+    "right_id": 415,
+    "label": 0,
+    "prediction": 0.0659
+  },
+  {
+    "left_name": "sony pink cyber-shot 7.2 megapixel digital camera dscw120p",
+    "right_name": "sony lcs-csl cyber-shot camera case",
+    "id": 5,
+    "left_id": 445,
+    "right_id": 459,
+    "label": 0,
+    "prediction": 0.1211
+  },
+  {
+    "left_name": "sony white cybershot t series digital camera jacket case with stylus lcjthcw",
+    "right_name": "sony lcs-csl cyber-shot camera case",
+    "id": 6,
+    "left_id": 350,
+    "right_id": 459,
+    "label": 0,
+    "prediction": 0.1029
+  },
+  {
+    "left_name": "panasonic black 8.5 ' portable dvd player dvdls83",
+    "right_name": "toshiba sd-p71s portable dvd player",
+    "id": 19,
+    "left_id": 550,
+    "right_id": 664,
+    "label": 0,
+    "prediction": 0.119
+  },
+  {
+    "left_name": "sony dvp-fx820 red 8 ' portable dvd player dvpfx820r",
+    "right_name": "toshiba sd-p71s portable dvd player",
+    "id": 20,
+    "left_id": 531,
+    "right_id": 664,
+    "label": 0,
+    "prediction": 0.1494
+  },
+  {
+    "left_name": "toshiba 22 ' lcd hdtv with built in dvd player in white 22lv506",
+    "right_name": "toshiba sd-p71s portable dvd player",
+    "id": 21,
+    "left_id": 894,
+    "right_id": 664,
+    "label": 0,
+    "prediction": 0.1068
+  },
+  {
+    "left_name": "panasonic black 8.5 ' portable dvd player dvdls83",
+    "right_name": "panasonic dmr-ez28k dvd player\\/recorder",
+    "id": 22,
+    "left_id": 550,
+    "right_id": 597,
+    "label": 0,
+    "prediction": 0.1036
+  },
+  {
+    "left_name": "sony dvp-fx820 blue 8 ' portable dvd player dvpfx820li",
+    "right_name": "panasonic dvd-ls83 portable dvd player",
+    "id": 24,
+    "left_id": 529,
+    "right_id": 594,
+    "label": 0,
+    "prediction": 0.104
+  },
+  {
+    "left_name": "panasonic black dvd home theater sound system scpt760",
+    "right_name": "sony bravia dav-is50 \\/ b home theater system",
+    "id": 26,
+    "left_id": 545,
+    "right_id": 949,
+    "label": 0,
+    "prediction": 0.0793
+  },
+  {
+    "left_name": "samsung 5 disc black home theater system htz410t",
+    "right_name": "sony bravia dav-is50 \\/ b home theater system",
+    "id": 27,
+    "left_id": 590,
+    "right_id": 949,
+    "label": 0,
+    "prediction": 0.1107
+  },
+  {
+    "left_name": "samsung 5 disc home theater surround sound system htz510",
+    "right_name": "sony bravia dav-is50 \\/ b home theater system",
+    "id": 28,
+    "left_id": 713,
+    "right_id": 949,
+    "label": 0,
+    "prediction": 0.1002
+  },
+  {
+    "left_name": "panasonic dect 6.0 expandable digital cordless phone with all-digital answering system kxtg9344t",
+    "right_name": "panasonic kx-tg9342t cordless phone",
+    "id": 29,
+    "left_id": 643,
+    "right_id": 636,
+    "label": 0,
+    "prediction": 0.203
+  },
+  {
+    "left_name": "panasonic expandable digital cordless dect 6.0 handset in silver kxtga101s",
+    "right_name": "panasonic kx-tg9342t cordless phone",
+    "id": 30,
+    "left_id": 280,
+    "right_id": 636,
+    "label": 0,
+    "prediction": 0.0678
+  },
+  {
+    "left_name": "panasonic dect 6.0 pearl silver expandable digital cordless phone system kxtg6313s",
+    "right_name": "panasonic kx-tg9342t cordless phone",
+    "id": 31,
+    "left_id": 1011,
+    "right_id": 636,
+    "label": 0,
+    "prediction": 0.1185
+  },
+  {
+    "left_name": "panasonic corded phone kxts3282b",
+    "right_name": "panasonic kx-tg9342t cordless phone",
+    "id": 32,
+    "left_id": 32,
+    "right_id": 636,
+    "label": 0,
+    "prediction": 0.2442
+  },
+  {
+    "left_name": "panasonic dect 6.0 expandable digital cordless phone with all-digital answering system kxtg9343t",
+    "right_name": "panasonic kx-tg9342t cordless phone",
+    "id": 33,
+    "left_id": 644,
+    "right_id": 636,
+    "label": 0,
+    "prediction": 0.203
+  },
+  {
+    "left_name": "panasonic dect 6.0 2-line digital expandable corded\\/cordless phone system kxtg9391t",
+    "right_name": "panasonic kx-tg9342t cordless phone",
+    "id": 34,
+    "left_id": 999,
+    "right_id": 636,
+    "label": 0,
+    "prediction": 0.1876
+  },
+  {
+    "left_name": "panasonic 5.8 ghz black expandable digital cordless phone kxtg4321b",
+    "right_name": "panasonic kx-tg9342t cordless phone",
+    "id": 35,
+    "left_id": 533,
+    "right_id": 636,
+    "label": 0,
+    "prediction": 0.1509
+  },
+  {
+    "left_name": "panasonic 5.8 ghz black expandable digital cordless phone system kxtg4323b",
+    "right_name": "panasonic kx-tg9342t cordless phone",
+    "id": 36,
+    "left_id": 534,
+    "right_id": 636,
+    "label": 0,
+    "prediction": 0.1375
+  },
+  {
+    "left_name": "panasonic dect 6.0 expandable digital cordless phone with all-digital answering system kxtg9344t",
+    "right_name": "panasonic kx-tg4324b 5.8 ghz expandable digital cordless phone",
+    "id": 37,
+    "left_id": 643,
+    "right_id": 516,
+    "label": 0,
+    "prediction": 0.3407
+  },
+  {
+    "left_name": "panasonic kx-tga450b black 5.8 ghz cordless handset kxtga450b",
+    "right_name": "panasonic kx-tg4324b 5.8 ghz expandable digital cordless phone",
+    "id": 38,
+    "left_id": 191,
+    "right_id": 516,
+    "label": 0,
+    "prediction": 0.224
+  }
+]

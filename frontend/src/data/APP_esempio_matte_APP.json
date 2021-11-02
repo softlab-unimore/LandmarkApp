@@ -1,0 +1,112 @@
+[
+  {
+    "record_left": "sony digital camera with lens kit dslra200w",
+    "record_right": "nikon digital camera leather case 5811",
+    "record": {
+      "right_name": "nikon digital camera leather case 5811",
+      "left_name": "sony digital camera with lens kit dslra200w",
+      "label": 0,
+      "prediction": 0.0437,
+      "entropy": 0.87654
+    },
+    "label": 0,
+    "explanation": [
+      {
+        "column": "right_name",
+        "position": 0,
+        "word": "nikon",
+        "score_right_landmark": 0.1057,
+        "score_left_landmark": -0.0544
+      },
+      {
+        "column": "right_name",
+        "position": 1,
+        "word": "digital",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.1649
+      },
+      {
+        "column": "right_name",
+        "position": 2,
+        "word": "camera",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.1502
+      },
+      {
+        "column": "right_name",
+        "position": 3,
+        "word": "leather",
+        "score_right_landmark": 0.1872,
+        "score_left_landmark": -0.0413
+      },
+      {
+        "column": "right_name",
+        "position": 4,
+        "word": "case",
+        "score_right_landmark": 0.1212,
+        "score_left_landmark": -0.0328
+      },
+      {
+        "column": "right_name",
+        "position": 5,
+        "word": "5811",
+        "score_right_landmark": 0.1506,
+        "score_left_landmark": -0.0369
+      },
+      {
+        "column": "left_name",
+        "position": 0,
+        "word": "sony",
+        "score_right_landmark": -0.0486,
+        "score_left_landmark": 0.091
+      },
+      {
+        "column": "left_name",
+        "position": 1,
+        "word": "digital",
+        "score_right_landmark": 0.1427,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_name",
+        "position": 2,
+        "word": "camera",
+        "score_right_landmark": 0.1635,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_name",
+        "position": 3,
+        "word": "with",
+        "score_right_landmark": -0.0359,
+        "score_left_landmark": 0.1217
+      },
+      {
+        "column": "left_name",
+        "position": 4,
+        "word": "lens",
+        "score_right_landmark": -0.0155,
+        "score_left_landmark": 0.1157
+      },
+      {
+        "column": "left_name",
+        "position": 5,
+        "word": "kit",
+        "score_right_landmark": -0.025,
+        "score_left_landmark": 0.093
+      },
+      {
+        "column": "left_name",
+        "position": 6,
+        "word": "dslra200w",
+        "score_right_landmark": -0.0701,
+        "score_left_landmark": 0.2676
+      }
+    ],
+    "metrics": {
+      "max": 0.2675968213173728,
+      "min": -0.07014574967687151,
+      "average": 0.05824665824786482
+    }
+  }
+]

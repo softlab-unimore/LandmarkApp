@@ -1,0 +1,322 @@
+[
+  {
+    "record": "Edward King -- 32 -- London, Park Lane",
+    "prediction": 1,
+    "label": 1,
+    "explanation": [
+      {
+        "word": "Edward",
+        "word_position": "left_NAME_1_Edward",
+        "score_left": 0.95,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token2",
+        "score_left": -0.10,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token3",
+        "score_left": -0.06,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token4",
+        "score_left": 0.60,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token5",
+        "score_left": 0.0,
+        "score_right": 0.0
+      },
+      {
+        "word": "right_toke1",
+        "score_left": 0.0,
+        "score_right": 0.0
+      },
+      {
+        "word": "right_token2",
+        "score_left": 0.0,
+        "score_right": 0.35
+      },
+      {
+        "word": "right_token3",
+        "score_left": 0.0,
+        "score_right": -0.95
+      },
+      {
+        "word": "right_token4",
+        "score_left": 0.0,
+        "score_right": 0.15
+      },
+      {
+        "word": "right_token5",
+        "score_left": 0.0,
+        "score_right": 0.15
+      }
+    ],
+    "metrics": {
+      "max_impact": 0.95,
+      "min_impact": -0.95,
+      "average": 0.14,
+      "entropy": 0.54
+    }
+  },
+  {
+    "record": "Edward King -- 32 -- London, Park Lane",
+    "prediction": 1,
+    "label": 1,
+    "explanation": [
+      {
+        "word": "Edward",
+        "word_position": "left_NAME_1_Edward",
+        "score_left": 0.95,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token2",
+        "score_left": -0.10,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token3",
+        "score_left": -0.06,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token4",
+        "score_left": 0.60,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token5",
+        "score_left": 0.0,
+        "score_right": 0.0
+      },
+      {
+        "word": "right_toke1",
+        "score_left": 0.0,
+        "score_right": 0.0
+      },
+      {
+        "word": "right_token2",
+        "score_left": 0.0,
+        "score_right": 0.35
+      },
+      {
+        "word": "right_token3",
+        "score_left": 0.0,
+        "score_right": -0.95
+      },
+      {
+        "word": "right_token4",
+        "score_left": 0.0,
+        "score_right": 0.15
+      },
+      {
+        "word": "right_token5",
+        "score_left": 0.0,
+        "score_right": 0.15
+      }
+    ],
+    "metrics": {
+      "max_impact": 0.95,
+      "min_impact": -0.95,
+      "average": 0.14,
+      "entropy": 0.54
+    }
+  },
+  {
+    "record": "Edward King -- 32 -- London, Park Lane",
+    "prediction": 1,
+    "label": 1,
+    "explanation": [
+      {
+        "word": "Edward",
+        "word_position": "left_NAME_1_Edward",
+        "score_left": 0.95,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token2",
+        "score_left": -0.10,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token3",
+        "score_left": -0.06,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token4",
+        "score_left": 0.60,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token5",
+        "score_left": 0.0,
+        "score_right": 0.0
+      },
+      {
+        "word": "right_toke1",
+        "score_left": 0.0,
+        "score_right": 0.0
+      },
+      {
+        "word": "right_token2",
+        "score_left": 0.0,
+        "score_right": 0.35
+      },
+      {
+        "word": "right_token3",
+        "score_left": 0.0,
+        "score_right": -0.95
+      },
+      {
+        "word": "right_token4",
+        "score_left": 0.0,
+        "score_right": 0.15
+      },
+      {
+        "word": "right_token5",
+        "score_left": 0.0,
+        "score_right": 0.15
+      }
+    ],
+    "metrics": {
+      "max_impact": 0.95,
+      "min_impact": -0.95,
+      "average": 0.14,
+      "entropy": 0.54
+    }
+  },
+  {
+    "record": "Edward King -- 32 -- London, Park Lane",
+    "prediction": 1,
+    "label": 1,
+    "explanation": [
+      {
+        "word": "Edward",
+        "word_position": "left_NAME_1_Edward",
+        "score_left": 0.95,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token2",
+        "score_left": -0.10,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token3",
+        "score_left": -0.06,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token4",
+        "score_left": 0.60,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token5",
+        "score_left": 0.0,
+        "score_right": 0.0
+      },
+      {
+        "word": "right_toke1",
+        "score_left": 0.0,
+        "score_right": 0.0
+      },
+      {
+        "word": "right_token2",
+        "score_left": 0.0,
+        "score_right": 0.35
+      },
+      {
+        "word": "right_token3",
+        "score_left": 0.0,
+        "score_right": -0.95
+      },
+      {
+        "word": "right_token4",
+        "score_left": 0.0,
+        "score_right": 0.15
+      },
+      {
+        "word": "right_token5",
+        "score_left": 0.0,
+        "score_right": 0.15
+      }
+    ],
+    "metrics": {
+      "max_impact": 0.95,
+      "min_impact": -0.95,
+      "average": 0.14,
+      "entropy": 0.54
+    }
+  },
+  {
+    "record": "Edward King -- 32 -- London, Park Lane",
+    "prediction": 1,
+    "label": 1,
+    "explanation": [
+      {
+        "word": "Edward",
+        "word_position": "left_NAME_1_Edward",
+        "score_left": 0.95,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token2",
+        "score_left": -0.10,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token3",
+        "score_left": -0.06,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token4",
+        "score_left": 0.60,
+        "score_right": 0.0
+      },
+      {
+        "word": "left_token5",
+        "score_left": 0.0,
+        "score_right": 0.0
+      },
+      {
+        "word": "right_toke1",
+        "score_left": 0.0,
+        "score_right": 0.0
+      },
+      {
+        "word": "right_token2",
+        "score_left": 0.0,
+        "score_right": 0.35
+      },
+      {
+        "word": "right_token3",
+        "score_left": 0.0,
+        "score_right": -0.95
+      },
+      {
+        "word": "right_token4",
+        "score_left": 0.0,
+        "score_right": 0.15
+      },
+      {
+        "word": "right_token5",
+        "score_left": 0.0,
+        "score_right": 0.15
+      }
+    ],
+    "metrics": {
+      "max_impact": 0.95,
+      "min_impact": -0.95,
+      "average": 0.14,
+      "entropy": 0.54
+    }
+  }
+]

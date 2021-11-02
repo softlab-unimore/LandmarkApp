@@ -1,0 +1,2746 @@
+[
+  {
+    "record_left": "palisades | ' 1829 peachtree rd. ' | atlanta | 404/350 -6755 | continental | 410",
+    "record_right": "` ritz-carlton restaurant ' | ' 181 peachtree st. ' | atlanta | 404-659-0400 | ` french ( classic ) ' | 91",
+    "record": {
+      "label": 0,
+      "left_name": "palisades",
+      "left_addr": "' 1829 peachtree rd. '",
+      "left_city": "atlanta",
+      "left_phone": "404\\/350 -6755",
+      "left_typee": "continental",
+      "left_class": 410,
+      "right_name": "` ritz-carlton restaurant '",
+      "right_addr": "' 181 peachtree st. '",
+      "right_city": "atlanta",
+      "right_phone": "404-659-0400",
+      "right_typee": "` french ( classic ) '",
+      "right_class": 91,
+      "prediction": 0.0929
+    },
+    "label": 0,
+    "explanation": [
+      {
+        "column": "left_name",
+        "position": 0,
+        "word": "palisades",
+        "score_right_landmark": -0.0161,
+        "score_left_landmark": 0.3583
+      },
+      {
+        "column": "left_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0026,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 1,
+        "word": "1829",
+        "score_right_landmark": 0.0029,
+        "score_left_landmark": 0.0117
+      },
+      {
+        "column": "left_addr",
+        "position": 2,
+        "word": "peachtree",
+        "score_right_landmark": 0.0039,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 3,
+        "word": "rd.",
+        "score_right_landmark": -0.0117,
+        "score_left_landmark": -0.0069
+      },
+      {
+        "column": "left_addr",
+        "position": 4,
+        "word": "'",
+        "score_right_landmark": 0.0127,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 0,
+        "word": "atlanta",
+        "score_right_landmark": 0.0013,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_phone",
+        "position": 0,
+        "word": "404\\/350",
+        "score_right_landmark": -0.0041,
+        "score_left_landmark": 0.0203
+      },
+      {
+        "column": "left_phone",
+        "position": 1,
+        "word": "-6755",
+        "score_right_landmark": 0.0105,
+        "score_left_landmark": 0.0079
+      },
+      {
+        "column": "left_typee",
+        "position": 0,
+        "word": "continental",
+        "score_right_landmark": -0.0053,
+        "score_left_landmark": 0.0005
+      },
+      {
+        "column": "left_class",
+        "position": 0,
+        "word": "410",
+        "score_right_landmark": -0.0232,
+        "score_left_landmark": 0.5669
+      },
+      {
+        "column": "right_name",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0122,
+        "score_left_landmark": -0.0196
+      },
+      {
+        "column": "right_name",
+        "position": 1,
+        "word": "ritz-carlton",
+        "score_right_landmark": 0.284,
+        "score_left_landmark": -0.0048
+      },
+      {
+        "column": "right_name",
+        "position": 2,
+        "word": "restaurant",
+        "score_right_landmark": 0.0154,
+        "score_left_landmark": -0.0089
+      },
+      {
+        "column": "right_name",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": -0.0095,
+        "score_left_landmark": -0.0151
+      },
+      {
+        "column": "right_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0073
+      },
+      {
+        "column": "right_addr",
+        "position": 1,
+        "word": "181",
+        "score_right_landmark": 0.0037,
+        "score_left_landmark": 0.0064
+      },
+      {
+        "column": "right_addr",
+        "position": 2,
+        "word": "peachtree",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0157
+      },
+      {
+        "column": "right_addr",
+        "position": 3,
+        "word": "st.",
+        "score_right_landmark": 0.0035,
+        "score_left_landmark": 0.0196
+      },
+      {
+        "column": "right_addr",
+        "position": 4,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0179
+      },
+      {
+        "column": "right_city",
+        "position": 0,
+        "word": "atlanta",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.017
+      },
+      {
+        "column": "right_phone",
+        "position": 0,
+        "word": "404-659-0400",
+        "score_right_landmark": -0.013,
+        "score_left_landmark": 0.0156
+      },
+      {
+        "column": "right_typee",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": -0.001,
+        "score_left_landmark": -0.0029
+      },
+      {
+        "column": "right_typee",
+        "position": 1,
+        "word": "french",
+        "score_right_landmark": 0.0044,
+        "score_left_landmark": 0.0031
+      },
+      {
+        "column": "right_typee",
+        "position": 2,
+        "word": "(",
+        "score_right_landmark": 0.0059,
+        "score_left_landmark": 0.0055
+      },
+      {
+        "column": "right_typee",
+        "position": 3,
+        "word": "classic",
+        "score_right_landmark": -0.0059,
+        "score_left_landmark": 0.0034
+      },
+      {
+        "column": "right_typee",
+        "position": 4,
+        "word": ")",
+        "score_right_landmark": 0.0273,
+        "score_left_landmark": 0.0211
+      },
+      {
+        "column": "right_typee",
+        "position": 5,
+        "word": "'",
+        "score_right_landmark": -0.0222,
+        "score_left_landmark": -0.0203
+      },
+      {
+        "column": "right_class",
+        "position": 0,
+        "word": "91",
+        "score_right_landmark": 0.401,
+        "score_left_landmark": 0.0074
+      }
+    ],
+    "metrics": {
+      "max": 0.5669225700656252,
+      "min": -0.023212556720463563,
+      "average": 0.02821539121334619
+    }
+  },
+  {
+    "record_left": "` restaurant ritz-carlton atlanta ' | ' 181 peachtree st. ' | atlanta | 404/659 -0400 | continental | 91",
+    "record_right": "` ritz-carlton restaurant ' | ' 181 peachtree st. ' | atlanta | 404-659-0400 | ` french ( classic ) ' | 91",
+    "record": {
+      "label": 1,
+      "left_name": "` restaurant ritz-carlton atlanta '",
+      "left_addr": "' 181 peachtree st. '",
+      "left_city": "atlanta",
+      "left_phone": "404\\/659 -0400",
+      "left_typee": "continental",
+      "left_class": 91,
+      "right_name": "` ritz-carlton restaurant '",
+      "right_addr": "' 181 peachtree st. '",
+      "right_city": "atlanta",
+      "right_phone": "404-659-0400",
+      "right_typee": "` french ( classic ) '",
+      "right_class": 91,
+      "prediction": 0.7342
+    },
+    "label": 1,
+    "explanation": [
+      {
+        "column": "left_name",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0048,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_name",
+        "position": 1,
+        "word": "restaurant",
+        "score_right_landmark": -0.0147,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_name",
+        "position": 2,
+        "word": "ritz-carlton",
+        "score_right_landmark": 0.2972,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_name",
+        "position": 3,
+        "word": "atlanta",
+        "score_right_landmark": -0.0052,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_name",
+        "position": 4,
+        "word": "'",
+        "score_right_landmark": -0.0053,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0007,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 1,
+        "word": "181",
+        "score_right_landmark": -0.009,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 2,
+        "word": "peachtree",
+        "score_right_landmark": -0.0117,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 3,
+        "word": "st.",
+        "score_right_landmark": -0.0007,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 4,
+        "word": "'",
+        "score_right_landmark": 0.012,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 0,
+        "word": "atlanta",
+        "score_right_landmark": -0.0014,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_phone",
+        "position": 0,
+        "word": "404\\/659",
+        "score_right_landmark": -0.0013,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_phone",
+        "position": 1,
+        "word": "-0400",
+        "score_right_landmark": 0.0041,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_typee",
+        "position": 0,
+        "word": "continental",
+        "score_right_landmark": -0.0013,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_class",
+        "position": 0,
+        "word": "91",
+        "score_right_landmark": 0.4032,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "right_name",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0263
+      },
+      {
+        "column": "right_name",
+        "position": 1,
+        "word": "ritz-carlton",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.2847
+      },
+      {
+        "column": "right_name",
+        "position": 2,
+        "word": "restaurant",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.004
+      },
+      {
+        "column": "right_name",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0112
+      },
+      {
+        "column": "right_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0044
+      },
+      {
+        "column": "right_addr",
+        "position": 1,
+        "word": "181",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0106
+      },
+      {
+        "column": "right_addr",
+        "position": 2,
+        "word": "peachtree",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0076
+      },
+      {
+        "column": "right_addr",
+        "position": 3,
+        "word": "st.",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0111
+      },
+      {
+        "column": "right_addr",
+        "position": 4,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0069
+      },
+      {
+        "column": "right_city",
+        "position": 0,
+        "word": "atlanta",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0035
+      },
+      {
+        "column": "right_phone",
+        "position": 0,
+        "word": "404-659-0400",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.01
+      },
+      {
+        "column": "right_typee",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0015
+      },
+      {
+        "column": "right_typee",
+        "position": 1,
+        "word": "french",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0109
+      },
+      {
+        "column": "right_typee",
+        "position": 2,
+        "word": "(",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.027
+      },
+      {
+        "column": "right_typee",
+        "position": 3,
+        "word": "classic",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0161
+      },
+      {
+        "column": "right_typee",
+        "position": 4,
+        "word": ")",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0137
+      },
+      {
+        "column": "right_typee",
+        "position": 5,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0019
+      },
+      {
+        "column": "right_class",
+        "position": 0,
+        "word": "91",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.3809
+      }
+    ],
+    "metrics": {
+      "max": 0.4032011357410267,
+      "min": -0.027004777430942532,
+      "average": 0.020955299403507398
+    }
+  },
+  {
+    "record_left": "palisades | ' 1829 peachtree rd. ' | atlanta | 404/350 -6755 | continental | 410",
+    "record_right": "` georgia grille ' | ' 2290 peachtree rd. ' | atlanta | 404-352-3517 | southwestern | 81",
+    "record": {
+      "label": 0,
+      "left_name": "palisades",
+      "left_addr": "' 1829 peachtree rd. '",
+      "left_city": "atlanta",
+      "left_phone": "404\\/350 -6755",
+      "left_typee": "continental",
+      "left_class": 410,
+      "right_name": "` georgia grille '",
+      "right_addr": "' 2290 peachtree rd. '",
+      "right_city": "atlanta",
+      "right_phone": "404-352-3517",
+      "right_typee": "southwestern",
+      "right_class": 81,
+      "prediction": 0.1016
+    },
+    "label": 0,
+    "explanation": [
+      {
+        "column": "left_name",
+        "position": 0,
+        "word": "palisades",
+        "score_right_landmark": -0.0214,
+        "score_left_landmark": 0.3753
+      },
+      {
+        "column": "left_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": -0.0093,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 1,
+        "word": "1829",
+        "score_right_landmark": 0.0108,
+        "score_left_landmark": 0.0019
+      },
+      {
+        "column": "left_addr",
+        "position": 2,
+        "word": "peachtree",
+        "score_right_landmark": 0.0114,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 3,
+        "word": "rd.",
+        "score_right_landmark": -0.0006,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 4,
+        "word": "'",
+        "score_right_landmark": 0.0095,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 0,
+        "word": "atlanta",
+        "score_right_landmark": 0.026,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_phone",
+        "position": 0,
+        "word": "404\\/350",
+        "score_right_landmark": -0.0042,
+        "score_left_landmark": 0.0026
+      },
+      {
+        "column": "left_phone",
+        "position": 1,
+        "word": "-6755",
+        "score_right_landmark": 0.0053,
+        "score_left_landmark": -0.008
+      },
+      {
+        "column": "left_typee",
+        "position": 0,
+        "word": "continental",
+        "score_right_landmark": -0.0057,
+        "score_left_landmark": 0.0129
+      },
+      {
+        "column": "left_class",
+        "position": 0,
+        "word": "410",
+        "score_right_landmark": -0.0254,
+        "score_left_landmark": 0.5825
+      },
+      {
+        "column": "right_name",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0206,
+        "score_left_landmark": -0.0197
+      },
+      {
+        "column": "right_name",
+        "position": 1,
+        "word": "georgia",
+        "score_right_landmark": 0.0836,
+        "score_left_landmark": 0.0107
+      },
+      {
+        "column": "right_name",
+        "position": 2,
+        "word": "grille",
+        "score_right_landmark": 0.1545,
+        "score_left_landmark": 0.0024
+      },
+      {
+        "column": "right_name",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0147,
+        "score_left_landmark": -0.0025
+      },
+      {
+        "column": "right_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0238
+      },
+      {
+        "column": "right_addr",
+        "position": 1,
+        "word": "2290",
+        "score_right_landmark": -0.019,
+        "score_left_landmark": -0.0185
+      },
+      {
+        "column": "right_addr",
+        "position": 2,
+        "word": "peachtree",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0134
+      },
+      {
+        "column": "right_addr",
+        "position": 3,
+        "word": "rd.",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0121
+      },
+      {
+        "column": "right_addr",
+        "position": 4,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0178
+      },
+      {
+        "column": "right_city",
+        "position": 0,
+        "word": "atlanta",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0069
+      },
+      {
+        "column": "right_phone",
+        "position": 0,
+        "word": "404-352-3517",
+        "score_right_landmark": 0.0152,
+        "score_left_landmark": 0.0093
+      },
+      {
+        "column": "right_typee",
+        "position": 0,
+        "word": "southwestern",
+        "score_right_landmark": 0.0142,
+        "score_left_landmark": 0.0022
+      },
+      {
+        "column": "right_class",
+        "position": 0,
+        "word": "81",
+        "score_right_landmark": 0.6879,
+        "score_left_landmark": -0.004
+      }
+    ],
+    "metrics": {
+      "max": 0.6879234312966922,
+      "min": -0.025381448880294016,
+      "average": 0.038862493535644575
+    }
+  },
+  {
+    "record_left": "toulouse | ' b peachtree rd. ' | atlanta | 404/351 -9533 | french | 92",
+    "record_right": "` georgia grille ' | ' 2290 peachtree rd. ' | atlanta | 404-352-3517 | southwestern | 81",
+    "record": {
+      "label": 0,
+      "left_name": "toulouse",
+      "left_addr": "' b peachtree rd. '",
+      "left_city": "atlanta",
+      "left_phone": "404\\/351 -9533",
+      "left_typee": "french",
+      "left_class": 92,
+      "right_name": "` georgia grille '",
+      "right_addr": "' 2290 peachtree rd. '",
+      "right_city": "atlanta",
+      "right_phone": "404-352-3517",
+      "right_typee": "southwestern",
+      "right_class": 81,
+      "prediction": 0.0976
+    },
+    "label": 0,
+    "explanation": [
+      {
+        "column": "left_name",
+        "position": 0,
+        "word": "toulouse",
+        "score_right_landmark": -0.0261,
+        "score_left_landmark": 0.3572
+      },
+      {
+        "column": "left_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0031,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 1,
+        "word": "b",
+        "score_right_landmark": 0.0018,
+        "score_left_landmark": 0.0033
+      },
+      {
+        "column": "left_addr",
+        "position": 2,
+        "word": "peachtree",
+        "score_right_landmark": 0.008,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 3,
+        "word": "rd.",
+        "score_right_landmark": 0.0016,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 4,
+        "word": "'",
+        "score_right_landmark": 0.0085,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 0,
+        "word": "atlanta",
+        "score_right_landmark": 0.0033,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_phone",
+        "position": 0,
+        "word": "404\\/351",
+        "score_right_landmark": -0.014,
+        "score_left_landmark": 0.0012
+      },
+      {
+        "column": "left_phone",
+        "position": 1,
+        "word": "-9533",
+        "score_right_landmark": 0.0065,
+        "score_left_landmark": 0.0044
+      },
+      {
+        "column": "left_typee",
+        "position": 0,
+        "word": "french",
+        "score_right_landmark": -0.0073,
+        "score_left_landmark": 0.037
+      },
+      {
+        "column": "left_class",
+        "position": 0,
+        "word": "92",
+        "score_right_landmark": -0.0066,
+        "score_left_landmark": 0.541
+      },
+      {
+        "column": "right_name",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0164,
+        "score_left_landmark": -0.0141
+      },
+      {
+        "column": "right_name",
+        "position": 1,
+        "word": "georgia",
+        "score_right_landmark": 0.1088,
+        "score_left_landmark": -0.0086
+      },
+      {
+        "column": "right_name",
+        "position": 2,
+        "word": "grille",
+        "score_right_landmark": 0.1548,
+        "score_left_landmark": -0.0075
+      },
+      {
+        "column": "right_name",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0034,
+        "score_left_landmark": -0.0014
+      },
+      {
+        "column": "right_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0098
+      },
+      {
+        "column": "right_addr",
+        "position": 1,
+        "word": "2290",
+        "score_right_landmark": -0.0212,
+        "score_left_landmark": -0.0056
+      },
+      {
+        "column": "right_addr",
+        "position": 2,
+        "word": "peachtree",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0019
+      },
+      {
+        "column": "right_addr",
+        "position": 3,
+        "word": "rd.",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.008
+      },
+      {
+        "column": "right_addr",
+        "position": 4,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0018
+      },
+      {
+        "column": "right_city",
+        "position": 0,
+        "word": "atlanta",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0064
+      },
+      {
+        "column": "right_phone",
+        "position": 0,
+        "word": "404-352-3517",
+        "score_right_landmark": 0.0078,
+        "score_left_landmark": 0.006
+      },
+      {
+        "column": "right_typee",
+        "position": 0,
+        "word": "southwestern",
+        "score_right_landmark": 0.0076,
+        "score_left_landmark": 0.0041
+      },
+      {
+        "column": "right_class",
+        "position": 0,
+        "word": "81",
+        "score_right_landmark": 0.6988,
+        "score_left_landmark": -0.0234
+      }
+    ],
+    "metrics": {
+      "max": 0.6988009366031377,
+      "min": -0.026139024637380246,
+      "average": 0.03852743513560843
+    }
+  },
+  {
+    "record_left": "palisades | ' 1829 peachtree rd. ' | atlanta | 404/350 -6755 | continental | 410",
+    "record_right": "` white house restaurant ' | ' 3172 peachtree rd. ne ' | atlanta | 404-237-7601 | diners | 719",
+    "record": {
+      "label": 0,
+      "left_name": "palisades",
+      "left_addr": "' 1829 peachtree rd. '",
+      "left_city": "atlanta",
+      "left_phone": "404\\/350 -6755",
+      "left_typee": "continental",
+      "left_class": 410,
+      "right_name": "` white house restaurant '",
+      "right_addr": "' 3172 peachtree rd. ne '",
+      "right_city": "atlanta",
+      "right_phone": "404-237-7601",
+      "right_typee": "diners",
+      "right_class": 719,
+      "prediction": 0.1073
+    },
+    "label": 0,
+    "explanation": [
+      {
+        "column": "left_name",
+        "position": 0,
+        "word": "palisades",
+        "score_right_landmark": -0.0069,
+        "score_left_landmark": 0.3891
+      },
+      {
+        "column": "left_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": -0.0023,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 1,
+        "word": "1829",
+        "score_right_landmark": 0.0095,
+        "score_left_landmark": 0.0016
+      },
+      {
+        "column": "left_addr",
+        "position": 2,
+        "word": "peachtree",
+        "score_right_landmark": 0.0077,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 3,
+        "word": "rd.",
+        "score_right_landmark": -0.0093,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 4,
+        "word": "'",
+        "score_right_landmark": 0.0069,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 0,
+        "word": "atlanta",
+        "score_right_landmark": -0.0108,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_phone",
+        "position": 0,
+        "word": "404\\/350",
+        "score_right_landmark": 0.0198,
+        "score_left_landmark": 0.009
+      },
+      {
+        "column": "left_phone",
+        "position": 1,
+        "word": "-6755",
+        "score_right_landmark": 0.0058,
+        "score_left_landmark": 0.0025
+      },
+      {
+        "column": "left_typee",
+        "position": 0,
+        "word": "continental",
+        "score_right_landmark": -0.0047,
+        "score_left_landmark": 0.0065
+      },
+      {
+        "column": "left_class",
+        "position": 0,
+        "word": "410",
+        "score_right_landmark": -0.0022,
+        "score_left_landmark": 0.5701
+      },
+      {
+        "column": "right_name",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": -0.0076,
+        "score_left_landmark": -0.0091
+      },
+      {
+        "column": "right_name",
+        "position": 1,
+        "word": "white",
+        "score_right_landmark": 0.1015,
+        "score_left_landmark": -0.019
+      },
+      {
+        "column": "right_name",
+        "position": 2,
+        "word": "house",
+        "score_right_landmark": 0.1098,
+        "score_left_landmark": 0.0034
+      },
+      {
+        "column": "right_name",
+        "position": 3,
+        "word": "restaurant",
+        "score_right_landmark": -0.0106,
+        "score_left_landmark": -0.0061
+      },
+      {
+        "column": "right_name",
+        "position": 4,
+        "word": "'",
+        "score_right_landmark": -0.0077,
+        "score_left_landmark": -0.0075
+      },
+      {
+        "column": "right_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.004
+      },
+      {
+        "column": "right_addr",
+        "position": 1,
+        "word": "3172",
+        "score_right_landmark": 0.0066,
+        "score_left_landmark": -0.0122
+      },
+      {
+        "column": "right_addr",
+        "position": 2,
+        "word": "peachtree",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.005
+      },
+      {
+        "column": "right_addr",
+        "position": 3,
+        "word": "rd.",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.004
+      },
+      {
+        "column": "right_addr",
+        "position": 4,
+        "word": "ne",
+        "score_right_landmark": 0.0011,
+        "score_left_landmark": -0.0029
+      },
+      {
+        "column": "right_addr",
+        "position": 5,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0204
+      },
+      {
+        "column": "right_city",
+        "position": 0,
+        "word": "atlanta",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0095
+      },
+      {
+        "column": "right_phone",
+        "position": 0,
+        "word": "404-237-7601",
+        "score_right_landmark": -0.0083,
+        "score_left_landmark": -0.0126
+      },
+      {
+        "column": "right_typee",
+        "position": 0,
+        "word": "diners",
+        "score_right_landmark": 0.0032,
+        "score_left_landmark": -0.0025
+      },
+      {
+        "column": "right_class",
+        "position": 0,
+        "word": "719",
+        "score_right_landmark": 0.6173,
+        "score_left_landmark": -0.0019
+      }
+    ],
+    "metrics": {
+      "max": 0.6173032127017275,
+      "min": -0.01903399786495745,
+      "average": 0.03351726445013511
+    }
+  },
+  {
+    "record_left": "palisades | ' 1829 peachtree rd. ' | atlanta | 404/350 -6755 | continental | 410",
+    "record_right": "` la grotta ' | ' 2637 peachtree rd. ne ' | atlanta | 404-231-1368 | italian | 85",
+    "record": {
+      "label": 0,
+      "left_name": "palisades",
+      "left_addr": "' 1829 peachtree rd. '",
+      "left_city": "atlanta",
+      "left_phone": "404\\/350 -6755",
+      "left_typee": "continental",
+      "left_class": 410,
+      "right_name": "` la grotta '",
+      "right_addr": "' 2637 peachtree rd. ne '",
+      "right_city": "atlanta",
+      "right_phone": "404-231-1368",
+      "right_typee": "italian",
+      "right_class": 85,
+      "prediction": 0.1073
+    },
+    "label": 0,
+    "explanation": [
+      {
+        "column": "left_name",
+        "position": 0,
+        "word": "palisades",
+        "score_right_landmark": -0.0308,
+        "score_left_landmark": 0.368
+      },
+      {
+        "column": "left_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0002,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 1,
+        "word": "1829",
+        "score_right_landmark": 0.0221,
+        "score_left_landmark": 0.0008
+      },
+      {
+        "column": "left_addr",
+        "position": 2,
+        "word": "peachtree",
+        "score_right_landmark": -0.0103,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 3,
+        "word": "rd.",
+        "score_right_landmark": -0.0114,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 4,
+        "word": "'",
+        "score_right_landmark": -0.0059,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 0,
+        "word": "atlanta",
+        "score_right_landmark": 0.0147,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_phone",
+        "position": 0,
+        "word": "404\\/350",
+        "score_right_landmark": 0.0244,
+        "score_left_landmark": 0.0143
+      },
+      {
+        "column": "left_phone",
+        "position": 1,
+        "word": "-6755",
+        "score_right_landmark": -0.003,
+        "score_left_landmark": 0.0062
+      },
+      {
+        "column": "left_typee",
+        "position": 0,
+        "word": "continental",
+        "score_right_landmark": 0.0064,
+        "score_left_landmark": -0.0005
+      },
+      {
+        "column": "left_class",
+        "position": 0,
+        "word": "410",
+        "score_right_landmark": -0.0244,
+        "score_left_landmark": 0.5384
+      },
+      {
+        "column": "right_name",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0022,
+        "score_left_landmark": -0.0063
+      },
+      {
+        "column": "right_name",
+        "position": 1,
+        "word": "la",
+        "score_right_landmark": 0.1429,
+        "score_left_landmark": 0.0048
+      },
+      {
+        "column": "right_name",
+        "position": 2,
+        "word": "grotta",
+        "score_right_landmark": 0.1259,
+        "score_left_landmark": -0.0153
+      },
+      {
+        "column": "right_name",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": -0.0253,
+        "score_left_landmark": -0.0114
+      },
+      {
+        "column": "right_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0115
+      },
+      {
+        "column": "right_addr",
+        "position": 1,
+        "word": "2637",
+        "score_right_landmark": -0.0047,
+        "score_left_landmark": 0.0081
+      },
+      {
+        "column": "right_addr",
+        "position": 2,
+        "word": "peachtree",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0045
+      },
+      {
+        "column": "right_addr",
+        "position": 3,
+        "word": "rd.",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0008
+      },
+      {
+        "column": "right_addr",
+        "position": 4,
+        "word": "ne",
+        "score_right_landmark": 0.0201,
+        "score_left_landmark": 0.0056
+      },
+      {
+        "column": "right_addr",
+        "position": 5,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.007
+      },
+      {
+        "column": "right_city",
+        "position": 0,
+        "word": "atlanta",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0121
+      },
+      {
+        "column": "right_phone",
+        "position": 0,
+        "word": "404-231-1368",
+        "score_right_landmark": 0.0085,
+        "score_left_landmark": -0.0075
+      },
+      {
+        "column": "right_typee",
+        "position": 0,
+        "word": "italian",
+        "score_right_landmark": -0.0012,
+        "score_left_landmark": 0.0042
+      },
+      {
+        "column": "right_class",
+        "position": 0,
+        "word": "85",
+        "score_right_landmark": 0.5498,
+        "score_left_landmark": 0.0204
+      }
+    ],
+    "metrics": {
+      "max": 0.5498337217603488,
+      "min": -0.03084288632626008,
+      "average": 0.034546700759589384
+    }
+  },
+  {
+    "record_left": "` bugsy \\ 's diner ' | ' 3555 las vegas blvd. s ' | ` las vegas ' | 702/733 -3111 | ` coffee shops/diners ' | 431",
+    "record_right": "moongate | ' 3400 las vegas blvd. s. ' | ` las vegas ' | 702-791-7352 | chinese | 666",
+    "record": {
+      "label": 0,
+      "left_name": "` bugsy \\ 's diner '",
+      "left_addr": "' 3555 las vegas blvd. s '",
+      "left_city": "` las vegas '",
+      "left_phone": "702\\/733 -3111",
+      "left_typee": "` coffee shops\\/diners '",
+      "left_class": 431,
+      "right_name": "moongate",
+      "right_addr": "' 3400 las vegas blvd. s. '",
+      "right_city": "` las vegas '",
+      "right_phone": "702-791-7352",
+      "right_typee": "chinese",
+      "right_class": 666,
+      "prediction": 0.0978
+    },
+    "label": 0,
+    "explanation": [
+      {
+        "column": "left_name",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": -0.0126,
+        "score_left_landmark": 0.0033
+      },
+      {
+        "column": "left_name",
+        "position": 1,
+        "word": "bugsy",
+        "score_right_landmark": -0.0057,
+        "score_left_landmark": 0.248
+      },
+      {
+        "column": "left_name",
+        "position": 2,
+        "word": "\\",
+        "score_right_landmark": -0.021,
+        "score_left_landmark": 0.0147
+      },
+      {
+        "column": "left_name",
+        "position": 3,
+        "word": "'s",
+        "score_right_landmark": 0.0032,
+        "score_left_landmark": -0.0357
+      },
+      {
+        "column": "left_name",
+        "position": 4,
+        "word": "diner",
+        "score_right_landmark": -0.0033,
+        "score_left_landmark": 0.0113
+      },
+      {
+        "column": "left_name",
+        "position": 5,
+        "word": "'",
+        "score_right_landmark": -0.0013,
+        "score_left_landmark": -0.009
+      },
+      {
+        "column": "left_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": -0.0097,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 1,
+        "word": "3555",
+        "score_right_landmark": -0.0052,
+        "score_left_landmark": 0.0179
+      },
+      {
+        "column": "left_addr",
+        "position": 2,
+        "word": "las",
+        "score_right_landmark": -0.0044,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 3,
+        "word": "vegas",
+        "score_right_landmark": -0.0056,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 4,
+        "word": "blvd.",
+        "score_right_landmark": -0.0081,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 5,
+        "word": "s",
+        "score_right_landmark": 0.0049,
+        "score_left_landmark": -0.0058
+      },
+      {
+        "column": "left_addr",
+        "position": 6,
+        "word": "'",
+        "score_right_landmark": 0.0329,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": -0.0155,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 1,
+        "word": "las",
+        "score_right_landmark": 0.0014,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 2,
+        "word": "vegas",
+        "score_right_landmark": 0.0034,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0092,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_phone",
+        "position": 0,
+        "word": "702\\/733",
+        "score_right_landmark": 0.0132,
+        "score_left_landmark": 0.0224
+      },
+      {
+        "column": "left_phone",
+        "position": 1,
+        "word": "-3111",
+        "score_right_landmark": 0.0018,
+        "score_left_landmark": -0.0018
+      },
+      {
+        "column": "left_typee",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": -0.0017,
+        "score_left_landmark": -0.0001
+      },
+      {
+        "column": "left_typee",
+        "position": 1,
+        "word": "coffee",
+        "score_right_landmark": -0.0082,
+        "score_left_landmark": -0.0053
+      },
+      {
+        "column": "left_typee",
+        "position": 2,
+        "word": "shops\\/diners",
+        "score_right_landmark": -0.0131,
+        "score_left_landmark": -0.015
+      },
+      {
+        "column": "left_typee",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0128,
+        "score_left_landmark": 0.0101
+      },
+      {
+        "column": "left_class",
+        "position": 0,
+        "word": "431",
+        "score_right_landmark": -0.0283,
+        "score_left_landmark": 0.4792
+      },
+      {
+        "column": "right_name",
+        "position": 0,
+        "word": "moongate",
+        "score_right_landmark": 0.3436,
+        "score_left_landmark": -0.0156
+      },
+      {
+        "column": "right_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0063
+      },
+      {
+        "column": "right_addr",
+        "position": 1,
+        "word": "3400",
+        "score_right_landmark": 0.0045,
+        "score_left_landmark": -0.0016
+      },
+      {
+        "column": "right_addr",
+        "position": 2,
+        "word": "las",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0046
+      },
+      {
+        "column": "right_addr",
+        "position": 3,
+        "word": "vegas",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.015
+      },
+      {
+        "column": "right_addr",
+        "position": 4,
+        "word": "blvd.",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0053
+      },
+      {
+        "column": "right_addr",
+        "position": 5,
+        "word": "s.",
+        "score_right_landmark": -0.0036,
+        "score_left_landmark": -0.0065
+      },
+      {
+        "column": "right_addr",
+        "position": 6,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0153
+      },
+      {
+        "column": "right_city",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0077
+      },
+      {
+        "column": "right_city",
+        "position": 1,
+        "word": "las",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0275
+      },
+      {
+        "column": "right_city",
+        "position": 2,
+        "word": "vegas",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0138
+      },
+      {
+        "column": "right_city",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0302
+      },
+      {
+        "column": "right_phone",
+        "position": 0,
+        "word": "702-791-7352",
+        "score_right_landmark": -0.0147,
+        "score_left_landmark": 0.0048
+      },
+      {
+        "column": "right_typee",
+        "position": 0,
+        "word": "chinese",
+        "score_right_landmark": 0.0219,
+        "score_left_landmark": 0.0077
+      },
+      {
+        "column": "right_class",
+        "position": 0,
+        "word": "666",
+        "score_right_landmark": 0.4621,
+        "score_left_landmark": -0.0062
+      }
+    ],
+    "metrics": {
+      "max": 0.4791893216838932,
+      "min": -0.03573978068326363,
+      "average": 0.01997380364755199
+    }
+  },
+  {
+    "record_left": "` circus circus ' | ' 2880 las vegas blvd. s ' | ` las vegas ' | 702/734 -0410 | buffets | 437",
+    "record_right": "moongate | ' 3400 las vegas blvd. s. ' | ` las vegas ' | 702-791-7352 | chinese | 666",
+    "record": {
+      "label": 0,
+      "left_name": "` circus circus '",
+      "left_addr": "' 2880 las vegas blvd. s '",
+      "left_city": "` las vegas '",
+      "left_phone": "702\\/734 -0410",
+      "left_typee": "buffets",
+      "left_class": 437,
+      "right_name": "moongate",
+      "right_addr": "' 3400 las vegas blvd. s. '",
+      "right_city": "` las vegas '",
+      "right_phone": "702-791-7352",
+      "right_typee": "chinese",
+      "right_class": 666,
+      "prediction": 0.1163
+    },
+    "label": 0,
+    "explanation": [
+      {
+        "column": "left_name",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": -0.029,
+        "score_left_landmark": -0.0073
+      },
+      {
+        "column": "left_name",
+        "position": 1,
+        "word": "circus",
+        "score_right_landmark": -0.0149,
+        "score_left_landmark": 0.1413
+      },
+      {
+        "column": "left_name",
+        "position": 2,
+        "word": "circus",
+        "score_right_landmark": 0.0076,
+        "score_left_landmark": 0.1413
+      },
+      {
+        "column": "left_name",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": -0.0236,
+        "score_left_landmark": -0.0071
+      },
+      {
+        "column": "left_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": -0.0068,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 1,
+        "word": "2880",
+        "score_right_landmark": -0.0068,
+        "score_left_landmark": 0.0022
+      },
+      {
+        "column": "left_addr",
+        "position": 2,
+        "word": "las",
+        "score_right_landmark": 0.0165,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 3,
+        "word": "vegas",
+        "score_right_landmark": -0.0078,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 4,
+        "word": "blvd.",
+        "score_right_landmark": 0.0087,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 5,
+        "word": "s",
+        "score_right_landmark": 0.0043,
+        "score_left_landmark": 0.0176
+      },
+      {
+        "column": "left_addr",
+        "position": 6,
+        "word": "'",
+        "score_right_landmark": -0.0043,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": -0.0236,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 1,
+        "word": "las",
+        "score_right_landmark": 0.0126,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 2,
+        "word": "vegas",
+        "score_right_landmark": 0.009,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0213,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_phone",
+        "position": 0,
+        "word": "702\\/734",
+        "score_right_landmark": 0.0109,
+        "score_left_landmark": -0.0062
+      },
+      {
+        "column": "left_phone",
+        "position": 1,
+        "word": "-0410",
+        "score_right_landmark": -0.0161,
+        "score_left_landmark": 0.0089
+      },
+      {
+        "column": "left_typee",
+        "position": 0,
+        "word": "buffets",
+        "score_right_landmark": -0.0091,
+        "score_left_landmark": -0.0021
+      },
+      {
+        "column": "left_class",
+        "position": 0,
+        "word": "437",
+        "score_right_landmark": 0.0072,
+        "score_left_landmark": 0.4487
+      },
+      {
+        "column": "right_name",
+        "position": 0,
+        "word": "moongate",
+        "score_right_landmark": 0.3455,
+        "score_left_landmark": 0.0018
+      },
+      {
+        "column": "right_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0065
+      },
+      {
+        "column": "right_addr",
+        "position": 1,
+        "word": "3400",
+        "score_right_landmark": 0.0254,
+        "score_left_landmark": -0.0029
+      },
+      {
+        "column": "right_addr",
+        "position": 2,
+        "word": "las",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0142
+      },
+      {
+        "column": "right_addr",
+        "position": 3,
+        "word": "vegas",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0169
+      },
+      {
+        "column": "right_addr",
+        "position": 4,
+        "word": "blvd.",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0048
+      },
+      {
+        "column": "right_addr",
+        "position": 5,
+        "word": "s.",
+        "score_right_landmark": -0.0064,
+        "score_left_landmark": 0.0309
+      },
+      {
+        "column": "right_addr",
+        "position": 6,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.001
+      },
+      {
+        "column": "right_city",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0097
+      },
+      {
+        "column": "right_city",
+        "position": 1,
+        "word": "las",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0082
+      },
+      {
+        "column": "right_city",
+        "position": 2,
+        "word": "vegas",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0002
+      },
+      {
+        "column": "right_city",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0113
+      },
+      {
+        "column": "right_phone",
+        "position": 0,
+        "word": "702-791-7352",
+        "score_right_landmark": 0.0123,
+        "score_left_landmark": -0.0058
+      },
+      {
+        "column": "right_typee",
+        "position": 0,
+        "word": "chinese",
+        "score_right_landmark": 0.0211,
+        "score_left_landmark": 0.0199
+      },
+      {
+        "column": "right_class",
+        "position": 0,
+        "word": "666",
+        "score_right_landmark": 0.4363,
+        "score_left_landmark": 0.0151
+      }
+    ],
+    "metrics": {
+      "max": 0.44869171520655393,
+      "min": -0.029036423751471696,
+      "average": 0.02407242751460645
+    }
+  },
+  {
+    "record_left": "mikado | ' 3400 las vegas blvd. s ' | ` las vegas ' | 702/791 -7111 | asian | 446",
+    "record_right": "moongate | ' 3400 las vegas blvd. s. ' | ` las vegas ' | 702-791-7352 | chinese | 666",
+    "record": {
+      "label": 0,
+      "left_name": "mikado",
+      "left_addr": "' 3400 las vegas blvd. s '",
+      "left_city": "` las vegas '",
+      "left_phone": "702\\/791 -7111",
+      "left_typee": "asian",
+      "left_class": 446,
+      "right_name": "moongate",
+      "right_addr": "' 3400 las vegas blvd. s. '",
+      "right_city": "` las vegas '",
+      "right_phone": "702-791-7352",
+      "right_typee": "chinese",
+      "right_class": 666,
+      "prediction": 0.1424
+    },
+    "label": 0,
+    "explanation": [
+      {
+        "column": "left_name",
+        "position": 0,
+        "word": "mikado",
+        "score_right_landmark": 0.0034,
+        "score_left_landmark": 0.3714
+      },
+      {
+        "column": "left_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": -0.0227,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 1,
+        "word": "3400",
+        "score_right_landmark": 0.0033,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 2,
+        "word": "las",
+        "score_right_landmark": 0.0137,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 3,
+        "word": "vegas",
+        "score_right_landmark": 0.0014,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 4,
+        "word": "blvd.",
+        "score_right_landmark": 0.0079,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 5,
+        "word": "s",
+        "score_right_landmark": -0.0223,
+        "score_left_landmark": 0.0082
+      },
+      {
+        "column": "left_addr",
+        "position": 6,
+        "word": "'",
+        "score_right_landmark": 0.0099,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": -0.0003,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 1,
+        "word": "las",
+        "score_right_landmark": 0.0065,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 2,
+        "word": "vegas",
+        "score_right_landmark": 0.01,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0152,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_phone",
+        "position": 0,
+        "word": "702\\/791",
+        "score_right_landmark": -0.0143,
+        "score_left_landmark": -0.0093
+      },
+      {
+        "column": "left_phone",
+        "position": 1,
+        "word": "-7111",
+        "score_right_landmark": -0.018,
+        "score_left_landmark": 0.0009
+      },
+      {
+        "column": "left_typee",
+        "position": 0,
+        "word": "asian",
+        "score_right_landmark": -0.0112,
+        "score_left_landmark": -0.0091
+      },
+      {
+        "column": "left_class",
+        "position": 0,
+        "word": "446",
+        "score_right_landmark": 0.0152,
+        "score_left_landmark": 0.5012
+      },
+      {
+        "column": "right_name",
+        "position": 0,
+        "word": "moongate",
+        "score_right_landmark": 0.4021,
+        "score_left_landmark": 0.0004
+      },
+      {
+        "column": "right_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0071
+      },
+      {
+        "column": "right_addr",
+        "position": 1,
+        "word": "3400",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0188
+      },
+      {
+        "column": "right_addr",
+        "position": 2,
+        "word": "las",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0095
+      },
+      {
+        "column": "right_addr",
+        "position": 3,
+        "word": "vegas",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0113
+      },
+      {
+        "column": "right_addr",
+        "position": 4,
+        "word": "blvd.",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0112
+      },
+      {
+        "column": "right_addr",
+        "position": 5,
+        "word": "s.",
+        "score_right_landmark": 0.0035,
+        "score_left_landmark": 0.0008
+      },
+      {
+        "column": "right_addr",
+        "position": 6,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0029
+      },
+      {
+        "column": "right_city",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0083
+      },
+      {
+        "column": "right_city",
+        "position": 1,
+        "word": "las",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0267
+      },
+      {
+        "column": "right_city",
+        "position": 2,
+        "word": "vegas",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0192
+      },
+      {
+        "column": "right_city",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0094
+      },
+      {
+        "column": "right_phone",
+        "position": 0,
+        "word": "702-791-7352",
+        "score_right_landmark": 0.0126,
+        "score_left_landmark": 0.0146
+      },
+      {
+        "column": "right_typee",
+        "position": 0,
+        "word": "chinese",
+        "score_right_landmark": 0.0106,
+        "score_left_landmark": 0.0032
+      },
+      {
+        "column": "right_class",
+        "position": 0,
+        "word": "666",
+        "score_right_landmark": 0.4533,
+        "score_left_landmark": 0.0202
+      }
+    ],
+    "metrics": {
+      "max": 0.5012049905787967,
+      "min": -0.02270787167629441,
+      "average": 0.03008057967352617
+    }
+  },
+  {
+    "record_left": "` bugsy \\ 's diner ' | ' 3555 las vegas blvd. s ' | ` las vegas ' | 702/733 -3111 | ` coffee shops/diners ' | 431",
+    "record_right": "` sterling brunch ' | ' 3645 las vegas blvd. s. ' | ` las vegas ' | 702-739-4651 | eclectic | 673",
+    "record": {
+      "label": 0,
+      "left_name": "` bugsy \\ 's diner '",
+      "left_addr": "' 3555 las vegas blvd. s '",
+      "left_city": "` las vegas '",
+      "left_phone": "702\\/733 -3111",
+      "left_typee": "` coffee shops\\/diners '",
+      "left_class": 431,
+      "right_name": "` sterling brunch '",
+      "right_addr": "' 3645 las vegas blvd. s. '",
+      "right_city": "` las vegas '",
+      "right_phone": "702-739-4651",
+      "right_typee": "eclectic",
+      "right_class": 673,
+      "prediction": 0.0987
+    },
+    "label": 0,
+    "explanation": [
+      {
+        "column": "left_name",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": -0.0185,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_name",
+        "position": 1,
+        "word": "bugsy",
+        "score_right_landmark": -0.0182,
+        "score_left_landmark": 0.2004
+      },
+      {
+        "column": "left_name",
+        "position": 2,
+        "word": "\\",
+        "score_right_landmark": -0.0011,
+        "score_left_landmark": -0.001
+      },
+      {
+        "column": "left_name",
+        "position": 3,
+        "word": "'s",
+        "score_right_landmark": -0.0055,
+        "score_left_landmark": 0.0002
+      },
+      {
+        "column": "left_name",
+        "position": 4,
+        "word": "diner",
+        "score_right_landmark": 0.0034,
+        "score_left_landmark": 0.0162
+      },
+      {
+        "column": "left_name",
+        "position": 5,
+        "word": "'",
+        "score_right_landmark": -0.0209,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": -0.0019,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 1,
+        "word": "3555",
+        "score_right_landmark": -0.012,
+        "score_left_landmark": 0.0186
+      },
+      {
+        "column": "left_addr",
+        "position": 2,
+        "word": "las",
+        "score_right_landmark": 0.004,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 3,
+        "word": "vegas",
+        "score_right_landmark": 0.0074,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 4,
+        "word": "blvd.",
+        "score_right_landmark": 0.0047,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 5,
+        "word": "s",
+        "score_right_landmark": 0.0065,
+        "score_left_landmark": -0.0045
+      },
+      {
+        "column": "left_addr",
+        "position": 6,
+        "word": "'",
+        "score_right_landmark": -0.0042,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0013,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 1,
+        "word": "las",
+        "score_right_landmark": 0.0113,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 2,
+        "word": "vegas",
+        "score_right_landmark": 0.0183,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0216,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_phone",
+        "position": 0,
+        "word": "702\\/733",
+        "score_right_landmark": 0.0001,
+        "score_left_landmark": 0.0028
+      },
+      {
+        "column": "left_phone",
+        "position": 1,
+        "word": "-3111",
+        "score_right_landmark": 0.0001,
+        "score_left_landmark": 0.0041
+      },
+      {
+        "column": "left_typee",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0032,
+        "score_left_landmark": -0.0017
+      },
+      {
+        "column": "left_typee",
+        "position": 1,
+        "word": "coffee",
+        "score_right_landmark": -0.0063,
+        "score_left_landmark": 0.0132
+      },
+      {
+        "column": "left_typee",
+        "position": 2,
+        "word": "shops\\/diners",
+        "score_right_landmark": -0.0041,
+        "score_left_landmark": 0.021
+      },
+      {
+        "column": "left_typee",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": -0.0104,
+        "score_left_landmark": -0.0178
+      },
+      {
+        "column": "left_class",
+        "position": 0,
+        "word": "431",
+        "score_right_landmark": -0.0255,
+        "score_left_landmark": 0.4258
+      },
+      {
+        "column": "right_name",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0064
+      },
+      {
+        "column": "right_name",
+        "position": 1,
+        "word": "sterling",
+        "score_right_landmark": 0.1701,
+        "score_left_landmark": -0.0323
+      },
+      {
+        "column": "right_name",
+        "position": 2,
+        "word": "brunch",
+        "score_right_landmark": -0.0168,
+        "score_left_landmark": -0.0127
+      },
+      {
+        "column": "right_name",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0164
+      },
+      {
+        "column": "right_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0053
+      },
+      {
+        "column": "right_addr",
+        "position": 1,
+        "word": "3645",
+        "score_right_landmark": -0.0024,
+        "score_left_landmark": 0.007
+      },
+      {
+        "column": "right_addr",
+        "position": 2,
+        "word": "las",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0057
+      },
+      {
+        "column": "right_addr",
+        "position": 3,
+        "word": "vegas",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0131
+      },
+      {
+        "column": "right_addr",
+        "position": 4,
+        "word": "blvd.",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0019
+      },
+      {
+        "column": "right_addr",
+        "position": 5,
+        "word": "s.",
+        "score_right_landmark": 0.0101,
+        "score_left_landmark": -0.0044
+      },
+      {
+        "column": "right_addr",
+        "position": 6,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0003
+      },
+      {
+        "column": "right_city",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0001
+      },
+      {
+        "column": "right_city",
+        "position": 1,
+        "word": "las",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0134
+      },
+      {
+        "column": "right_city",
+        "position": 2,
+        "word": "vegas",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0262
+      },
+      {
+        "column": "right_city",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.016
+      },
+      {
+        "column": "right_phone",
+        "position": 0,
+        "word": "702-739-4651",
+        "score_right_landmark": 0.0046,
+        "score_left_landmark": 0.003
+      },
+      {
+        "column": "right_typee",
+        "position": 0,
+        "word": "eclectic",
+        "score_right_landmark": 0.0013,
+        "score_left_landmark": -0.0109
+      },
+      {
+        "column": "right_class",
+        "position": 0,
+        "word": "673",
+        "score_right_landmark": 0.3522,
+        "score_left_landmark": -0.006
+      }
+    ],
+    "metrics": {
+      "max": 0.42584604214182287,
+      "min": -0.0323062013334403,
+      "average": 0.013666538369274102
+    }
+  },
+  {
+    "record_left": "` coyote cafe ' | ' 3799 las vegas blvd. s ' | ` las vegas ' | 702/891 -7349 | southwestern | 68",
+    "record_right": "` coyote cafe ( las vegas ) ' | ' 3799 las vegas blvd. s. ' | ` las vegas ' | 702-891-7349 | southwestern | 68",
+    "record": {
+      "label": 1,
+      "left_name": "` coyote cafe '",
+      "left_addr": "' 3799 las vegas blvd. s '",
+      "left_city": "` las vegas '",
+      "left_phone": "702\\/891 -7349",
+      "left_typee": "southwestern",
+      "left_class": 68,
+      "right_name": "` coyote cafe ( las vegas ) '",
+      "right_addr": "' 3799 las vegas blvd. s. '",
+      "right_city": "` las vegas '",
+      "right_phone": "702-891-7349",
+      "right_typee": "southwestern",
+      "right_class": 68,
+      "prediction": 0.5987
+    },
+    "label": 1,
+    "explanation": [
+      {
+        "column": "left_name",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0014,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_name",
+        "position": 1,
+        "word": "coyote",
+        "score_right_landmark": 0.1759,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_name",
+        "position": 2,
+        "word": "cafe",
+        "score_right_landmark": 0.002,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_name",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0022,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0016,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 1,
+        "word": "3799",
+        "score_right_landmark": 0.0056,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 2,
+        "word": "las",
+        "score_right_landmark": 0.0088,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 3,
+        "word": "vegas",
+        "score_right_landmark": 0.001,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 4,
+        "word": "blvd.",
+        "score_right_landmark": 0.0153,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 5,
+        "word": "s",
+        "score_right_landmark": -0.0023,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_addr",
+        "position": 6,
+        "word": "'",
+        "score_right_landmark": 0.0084,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": -0.0009,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 1,
+        "word": "las",
+        "score_right_landmark": 0.0059,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 2,
+        "word": "vegas",
+        "score_right_landmark": 0.0101,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_city",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0071,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_phone",
+        "position": 0,
+        "word": "702\\/891",
+        "score_right_landmark": -0.0024,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_phone",
+        "position": 1,
+        "word": "-7349",
+        "score_right_landmark": -0.0059,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_typee",
+        "position": 0,
+        "word": "southwestern",
+        "score_right_landmark": 0.0106,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "left_class",
+        "position": 0,
+        "word": "68",
+        "score_right_landmark": 0.3259,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "right_name",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0162
+      },
+      {
+        "column": "right_name",
+        "position": 1,
+        "word": "coyote",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.1761
+      },
+      {
+        "column": "right_name",
+        "position": 2,
+        "word": "cafe",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0059
+      },
+      {
+        "column": "right_name",
+        "position": 3,
+        "word": "(",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0029
+      },
+      {
+        "column": "right_name",
+        "position": 4,
+        "word": "las",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.003
+      },
+      {
+        "column": "right_name",
+        "position": 5,
+        "word": "vegas",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0087
+      },
+      {
+        "column": "right_name",
+        "position": 6,
+        "word": ")",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0012
+      },
+      {
+        "column": "right_name",
+        "position": 7,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0054
+      },
+      {
+        "column": "right_addr",
+        "position": 0,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0082
+      },
+      {
+        "column": "right_addr",
+        "position": 1,
+        "word": "3799",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0
+      },
+      {
+        "column": "right_addr",
+        "position": 2,
+        "word": "las",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0013
+      },
+      {
+        "column": "right_addr",
+        "position": 3,
+        "word": "vegas",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0075
+      },
+      {
+        "column": "right_addr",
+        "position": 4,
+        "word": "blvd.",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0126
+      },
+      {
+        "column": "right_addr",
+        "position": 5,
+        "word": "s.",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0056
+      },
+      {
+        "column": "right_addr",
+        "position": 6,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0058
+      },
+      {
+        "column": "right_city",
+        "position": 0,
+        "word": "`",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0038
+      },
+      {
+        "column": "right_city",
+        "position": 1,
+        "word": "las",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0207
+      },
+      {
+        "column": "right_city",
+        "position": 2,
+        "word": "vegas",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0174
+      },
+      {
+        "column": "right_city",
+        "position": 3,
+        "word": "'",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.0239
+      },
+      {
+        "column": "right_phone",
+        "position": 0,
+        "word": "702-891-7349",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": -0.0071
+      },
+      {
+        "column": "right_typee",
+        "position": 0,
+        "word": "southwestern",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.026
+      },
+      {
+        "column": "right_class",
+        "position": 0,
+        "word": "68",
+        "score_right_landmark": 0.0,
+        "score_left_landmark": 0.3165
+      }
+    ],
+    "metrics": {
+      "max": 0.3258747575738115,
+      "min": -0.008657277860978693,
+      "average": 0.014241580683151473
+    }
+  }
+]
