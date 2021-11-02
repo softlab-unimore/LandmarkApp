@@ -1,0 +1,8 @@
+.idea/
+__pycache__/
+/example_submissions.txt
+/setup.txt
+.landmark/
+/db.sqlite3
+/files/*
+!/files/__init__.py
