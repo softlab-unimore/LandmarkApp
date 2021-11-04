@@ -5,4 +5,5 @@ __pycache__/
 /db.sqlite3
 /files/*
 !/files/__init__.py
+!/files/ModelWrapper.py
 /landmark/
