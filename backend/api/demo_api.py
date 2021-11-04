@@ -6,9 +6,9 @@ import pickle
 import numpy as np
 import pandas as pd
 
-from backend.Landmark_backend.settings import BASE_DIR
+from Landmark_backend.settings import BASE_DIR
 
-from backend.landmark.landmark.landmark import Mapper, Landmark
+from landmark.landmark.landmark import Mapper, Landmark
 
 exclude_attrs = ['left_id', 'right_id', 'id', ' prediction', 'label']
 
@@ -168,7 +168,7 @@ def api_adversarial_words(item, impacts_df, exclude_attrs=('id', 'left_id', 'rig
     return res_df
 
 def get_adversarial(state_path, dataset_path, ids):
-    from backend.files.ModelWrapper import ModelWrapper
+    from files.ModelWrapper import ModelWrapper
     model_wrapper = ModelWrapper(state_path, exclude_attrs)
     df = pd.read_csv(dataset_path)
     if 'prediction' not in df.columns:
@@ -206,7 +206,7 @@ def get_adversarial(state_path, dataset_path, ids):
 
 
 def explain_elements(state_path, dataset_path, ids):
-    from backend.files.ModelWrapper import ModelWrapper
+    from files.ModelWrapper import ModelWrapper
     model_wrapper = ModelWrapper(state_path, exclude_attrs)
     dataset_name = os.path.split(dataset_path)[1]
 
