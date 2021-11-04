@@ -4,7 +4,7 @@ from rest_framework.parsers import MultiPartParser, FormParser
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from Landmark_backend.settings import BASE_DIR
+
 from .demo_api import *
 from .serializars import *
 

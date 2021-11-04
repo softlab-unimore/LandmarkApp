@@ -6,9 +6,9 @@ import pickle
 import numpy as np
 import pandas as pd
 
-from Landmark_backend.settings import BASE_DIR
+from backend.Landmark_backend.settings import BASE_DIR
 
-from landmark.landmark.landmark import Mapper, Landmark
+from backend.landmark.landmark.landmark import Mapper, Landmark
 
 exclude_attrs = ['left_id', 'right_id', 'id', ' prediction', 'label']
 
@@ -105,7 +105,7 @@ def explanation_bundle_to_json(item, explanation_df, explainer,
     res_dict = {}
     item_to_display = item.drop(['id', 'left_id', 'right_id'], 1).rename(columns={'pred': 'prediction'}).round(4)
     cols = item_to_display.columns
-    item_dict = ast.literal_eval(item_to_display.to_json(orient='records'))[0]
+    item_dict = ast.literal_eval(item_to_display.fillna('').to_json(orient='records'))[0]
     res_dict.update(
         record_left=' | '.join(item[[col for col in cols if col.startswith('left_')]].astype(str).values[0]),
         record_right=' | '.join(item[[col for col in cols if col.startswith('right_')]].astype(str).values[0]),
@@ -168,22 +168,45 @@ def api_adversarial_words(item, impacts_df, exclude_attrs=('id', 'left_id', 'rig
     return res_df
 
 def get_adversarial(state_path, dataset_path, ids):
-    from files.ModelWrapper import ModelWrapper
-    selected_items = pd.read_csv(dataset_path).iloc[ids, :]
+    from backend.files.ModelWrapper import ModelWrapper
     model_wrapper = ModelWrapper(state_path, exclude_attrs)
-    if 'prediction' not in selected_items.columns:
-        selected_items['prediction'] = model_wrapper.predict(selected_items)
+    df = pd.read_csv(dataset_path)
+    if 'prediction' not in df.columns:
+        df['prediction'] = model_wrapper.predict(df)
+        df.set_index('id').to_csv(dataset_path)
+    selected_items = df.iloc[ids, :]
     adversarial_res = []
+    dataset_name = os.path.split(dataset_path)[1]
+    file_path = os.path.join(BASE_DIR, 'files', dataset_name + '_adversarial_dict.pickle')
+
+    try:
+        with open(file_path, 'rb') as file:
+            tmp = pickle.load(file)
+        print('Loaded')
+        adv_dict = tmp
+    except Exception as e:
+        print(e)
+        adv_dict = {}
     tmp_df = selected_items.rename(columns={'prediction': 'pred'})
-    for i in selected_items['id']:
+    for i in tmp_df['id']:
         el = tmp_df.loc[[i]]
-        adv_impacts = get_adversarial_words(el, model_wrapper, exclude_attrs=exclude_attrs)
+        if i not in adv_dict.keys():
+            adv_impacts = get_adversarial_words(el, model_wrapper, exclude_attrs=exclude_attrs)
+
+
+            adv_dict[i] = adv_impacts
+        else:
+            adv_impacts = adv_dict[i]
         adversarial_res.append(api_adversarial_words(el, adv_impacts))
+
+    with open(file_path, 'wb') as file:
+        pickle.dump(adv_dict, file)
+
     return adversarial_res
 
 
 def explain_elements(state_path, dataset_path, ids):
-    from files.ModelWrapper import ModelWrapper
+    from backend.files.ModelWrapper import ModelWrapper
     model_wrapper = ModelWrapper(state_path, exclude_attrs)
     dataset_name = os.path.split(dataset_path)[1]
 
@@ -216,6 +239,8 @@ def explain_elements(state_path, dataset_path, ids):
         if i not in explanations[curr_conf].keys():
             exp = explainer.explain(el, conf=curr_conf, num_samples=500)
             explanations[curr_conf][i] = exp
+            with open(file_path, 'wb') as file:
+                pickle.dump(explanations, file)
         exp = explanations[curr_conf][i]
         res_exp.append(explanation_bundle_to_json(el, exp, explainer))
 
@@ -226,7 +251,6 @@ def explain_elements(state_path, dataset_path, ids):
 
 
 def get_df_elements(dataset_path, ids):
-
     if len(ids)> 0:
         df = pd.read_csv(dataset_path).iloc[ids, :]
     else:

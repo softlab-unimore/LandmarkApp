@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
-import {connect} from 'react-redux' 
+import {connect} from 'react-redux'
 
-import {Layout, Table, Button, Input, Row, Col, Alert, Spin} from 'antd' 
+import {Alert, Button, Col, Input, Layout, Row, Spin, Table} from 'antd'
 
-import * as buildActions from "../store/actions/build" 
+import * as buildActions from "../store/actions/build"
 
-const {Content} = Layout 
+const {Content} = Layout
 
 
 class SelectionForm extends Component {
@@ -14,61 +14,60 @@ class SelectionForm extends Component {
         columns: [],
         dataSource: [],
         selectedRowKeys: [],
-    } 
+    }
 
     componentDidMount() {
         if (this.props.dataset.length > 0) {
-            console.log('Read records from the uploaded dataset') 
-            let name = this.props.dataset ? this.props.dataset[0].name : null 
-            this.props.recordRead(name) 
-        }
-        else
-            this.props.recordFail('Impossible read record without dataset') 
+            console.log('Read records from the uploaded dataset')
+            let name = this.props.dataset ? this.props.dataset[0].name : null
+            this.props.recordRead(name)
+        } else
+            this.props.recordFail('Impossible read record without dataset')
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
         if ((this.props.recordList.length > 0) && (this.props.recordList !== prevProps.recordList || this.state.dataSource.length === 0)) {
-            console.log('Construct dataset table interface') 
-            this.createTable(this.props.recordList) 
+            console.log('Construct dataset table interface')
+            this.createTable(this.props.recordList)
         }
     }
 
     createTable = (dataList) => {
-        let columns = [] 
+        let columns = []
 
         let dataSource = dataList.map((val, key) => {
-            val['key'] = key 
-            return val 
-        }) 
+            val['key'] = key
+            return val
+        })
 
         if (dataSource.length > 0) {
             columns = Object.keys(dataSource[0]).map(val => {
-                return {title: val.toUpperCase(), dataIndex: val} 
-            }) 
+                return {title: val.toUpperCase(), dataIndex: val}
+            })
         }
 
-        let i 
-        for (i = 0;  i < columns.length;  ++i) {
+        let i
+        for (i = 0; i < columns.length; ++i) {
             if (columns[i].dataIndex === 'key')
                 break
         }
         if (i < columns.length)
-            columns.splice(i, 1) 
+            columns.splice(i, 1)
 
-        this.setState({dataSource, columns}) 
+        this.setState({dataSource, columns})
     }
 
     onSearch = value => {
-        console.log(value) 
+        console.log(value)
     }
 
     onSelectChange = (selectedRowKeys, selectedRows) => {
-        console.log(`selectedRowKeys: ${selectedRowKeys}`, 'selectedRows: ', selectedRows) 
-        this.props.recordSelectRecords(selectedRowKeys) 
-    } 
+        console.log(`selectedRowKeys: ${selectedRowKeys}`, 'selectedRows: ', selectedRows)
+        this.props.recordSelectRecords(selectedRowKeys)
+    }
 
     render() {
-        const {recordSelectedList} = this.props 
+        const {recordSelectedList} = this.props
         const rowSelection = {
             recordSelectedList,
             onChange: this.onSelectChange,
@@ -77,9 +76,9 @@ class SelectionForm extends Component {
                 Table.SELECTION_INVERT,
                 Table.SELECTION_NONE,
             ],
-        } 
+        }
 
-        let errorMessage = null 
+        let errorMessage = null
         if (this.props.error) {
             errorMessage = (
                 <Alert
@@ -90,12 +89,12 @@ class SelectionForm extends Component {
                     style={{
                         marginBottom: '24px'
                     }}
-                />) 
+                />)
         }
 
-        let loadingSpin = null 
+        let loadingSpin = null
         if (this.props.loading)
-            loadingSpin = (<Spin size="large"/>) 
+            loadingSpin = (<Spin size="large"/>)
 
         return (
             <Content style={{margin: '24px 16px 0'}}>
@@ -125,10 +124,11 @@ class SelectionForm extends Component {
                     columns={this.state.columns}
                     dataSource={this.state.dataSource}
                     pagination={{position: ['topRight']}}
+                    scroll={{x: 1300}}
                 />
 
             </Content>
-        ) 
+        )
     }
 }
 
@@ -142,7 +142,7 @@ const mapStateToProps = state => {
         recordList: state.build.recordList,
         recordSelectedList: state.build.recordSelectedList,
     }
-} 
+}
 
 const mapDispatchToProps = dispatch => {
     return {
@@ -150,6 +150,6 @@ const mapDispatchToProps = dispatch => {
         recordFail: (error) => dispatch(buildActions.recordFail(error)),
         recordSelectRecords: (recordSelectedList) => dispatch(buildActions.recordSelectRecords(recordSelectedList))
     }
-} 
+}
 
 export default connect(mapStateToProps, mapDispatchToProps)(SelectionForm) 
