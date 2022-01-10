@@ -1,0 +1,12 @@
+django
+django-cors-headers
+django-cleanup
+djangorestframework
+scipy
+pandas
+lime
+scipy
+numpy
+sklearn
+matplotlib
+seaborn
