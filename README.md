@@ -36,10 +36,29 @@ Intall the packages specified in the requirements.txt file.
 pip install -r requirements.txt
 ```
 
-#### Frontend server
-Install all the npm packages. Go into the frontend folder and type the following command to install all npm packages
+#### Backend server
+Go to the backend folder and initialize the django server database
 
 ```bash
+cd backend
+.\manage.py makemigrations
+.\manage.py migrate
+```
+
+and launch the server
+
+```bash
+ .\manage.py runserver
+```
+
+django Runs on **localhost:8000**
+
+#### Frontend server
+Install all the npm packages.
+In another terminal go into the frontend folder and type the following command to install all npm packages
+
+```bash
+cd frontend
 npm install
 ```
 
@@ -52,21 +71,7 @@ npm start
 The Application Runs on **localhost:3000**
 
 
-#### Backend server
-In another terminal go to the backend folder and initialize the django server database
 
-```bash
-.\manage.py makemigrations
-.\manage.py migrate
-```
-
-and launch the server
-
-```bash
- .\manage.py runserver
-```
-
-django Runs on **localhost:8000**
 
 #### Use the app
 open the browser at [http://localhost:3000/](http://localhost:3000/) 
