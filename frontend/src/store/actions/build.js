@@ -1,9 +1,6 @@
 import axios from "axios"
 import {config} from "../../Constants"
 import * as actionTypes from './actionTypes'
-import myData from '../../data/100_items_ONLY_NAME.json'
-import myData2 from '../../data/broken_exp.json'
-import myData3 from '../../data/100_adversarial_ONLY_NAME.json'
 
 
 export const uploadStart = () => {
